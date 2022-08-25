@@ -2,12 +2,12 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Digital Neighborhoods MAGDA'
+copyright = '2021'
+author = ''
 
 release = '0.1'
-version = '0.1.0'
+version = '1.0.0'
 
 # -- General configuration
 
@@ -17,6 +17,7 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    "myst_parser",
 ]
 
 intersphinx_mapping = {
@@ -29,7 +30,7 @@ templates_path = ['_templates']
 
 # -- Options for HTML output
 
-html_theme = 'sphinx_rtd_theme'
+html_theme = "sphinx_rtd_theme"
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'

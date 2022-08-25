@@ -1,10 +1,7 @@
-Welcome to Lumache's documentation!
+Welcome to the Digital Neighborhood's Magda documentation!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+**Magda** is an open source data catalog system that will provide a single place where all of an organization's data can be catalogued, enriched, searched, tracked and prioritized - whether big or small, internally or externally sourced, available as files, databases or APIs.
 
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
@@ -18,5 +15,8 @@ Contents
 
 .. toctree::
 
-   usage
+   about
+   Kubernetes-usage
+   aws
+   design-decisions
    api
