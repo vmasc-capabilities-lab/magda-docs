@@ -1,6 +1,11 @@
 # About
 
-This is the repository for VCL version of magda based off of the [magda](https://github.com/magda-io/magda) repository. Magda was created by CSIRO's [Data61](https://data61.csiro.au/) and Australia's [Department of Prime Minister and Cabinet](https://www.pmc.gov.au/).
+```{toctree}
+```
+
+## Magda
+
+The current version of magda is based off of the [magda](https://github.com/magda-io/magda) repository. Magda was created by CSIRO's [Data61](https://data61.csiro.au/) and Australia's [Department of Prime Minister and Cabinet](https://www.pmc.gov.au/).
 
 You can access the Capabilities Lab Magda Website:  [http://dn.datacube.online](http://dn.datacube.online)
 
@@ -11,10 +16,6 @@ New to Magda? Here are some useful documents:
 - [What is a Magda Minion?](https://github.com/magda-io/magda/blob/master/docs/docs/architecture/Guide%20to%20Magda%20Internals.md#minions)
 - [Magda Architecture](https://github.com/magda-io/magda/blob/master/docs/docs/architecture/Guide%20to%20Magda%20Internals.md)
 - [Data61 Future RoadMap](https://github.com/magda-io/magda/blob/master/docs/docs/future-roadmap.png)
-
-## Capabilities Lab Magda Services
-
-
 
 
 ## Team Members

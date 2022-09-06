@@ -1,5 +1,8 @@
 # Kubernetes Usage
 
+```{toctree}
+```
+
 In Helm, Kubernetes resources are distributed as charts: a collection of templated Kubernetes resources in YAML or JSON format. The charts can be deployed from an external Helm repository, a chart archive file, or a local chart directory. Each chart has their own set of variables that can be used for customizing the deployment
 
 ## CapLab Helm Chart Info
@@ -59,3 +62,4 @@ Located in the ./chart folder you will find a couple of things
 * https://www.tutorialworks.com/helm-cheatsheet/
 * https://helm.sh/docs/intro/using_helm/
 * https://codefresh.io/docs/docs/new-helm/helm-best-practices/
+

@@ -1,5 +1,8 @@
 # AWS
 
+```{toctree}
+```
+
 ## Creating a cluster 
 
 To create a EKS cluster on AWS, you can find out how [here ](https://docs.aws.amazon.com/eks/latest/userguide/getting-started-eksctl.html).

@@ -1,5 +1,8 @@
 # Design Decisions
 
+```{toctree}
+```
+
 ## Database Scaling (2/24/22)
 * **Problem:** MAGDA can operate on a four separate Postgres database (production) or one combined database (development). Our MAGDA instance currently runs on the combined database structure so the question is whether or not we should upgrade to the production databases?
 * **Decision:**

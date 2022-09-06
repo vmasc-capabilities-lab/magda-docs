@@ -1,5 +1,9 @@
 # Magda Wiki
 
+
+```{toctree}
+```
+
 Welcome to the Capabilities Lab Magda wiki. Here you will find any and all information about Magda.
 
 
@@ -16,3 +20,4 @@ Welcome to the Capabilities Lab Magda wiki. Here you will find any and all infor
     * [Connect to AWS EKS Cluster](/AWS/Connect-to-AWS-EKS-Cluster)
 * [Design Decisions](/Design-Decisions)
 * [Magda Services](/Magda-Services)
+
