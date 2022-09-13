@@ -1,0 +1,3429 @@
+{
+  "@context": "https://project-open-data.cio.gov/v1.1/schema/catalog.jsonld",
+  "@id": "https://data.norfolk.gov/data.json",
+  "@type": "dcat:Catalog",
+  "conformsTo": "https://project-open-data.cio.gov/v1.1/schema",
+  "describedBy": "https://project-open-data.cio.gov/v1.1/schema/catalog.json",
+  "dataset": [
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/2i7r-uufg",
+      "issued": "2021-03-03",
+      "@type": "dcat:Dataset",
+      "modified": "2021-08-18",
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "keyword": ["flood", "resilience", "sensor", "stormwater", "tide"],
+      "identifier": "https://data.norfolk.gov/api/views/2i7r-uufg",
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "description": "",
+      "title": "Tide Sensors",
+      "theme": ["Environment"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/46ui-daq6",
+      "issued": "2022-04-29",
+      "@type": "dcat:Dataset",
+      "modified": "2022-04-29",
+      "keyword": [
+        "athletic field",
+        "beach",
+        "community center",
+        "dog park",
+        "kayak",
+        "parks",
+        "playground"
+      ],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/46ui-daq6",
+      "description": "This dataset provides information about Norfolk's parks, open spaces, community centers and other city properties.  The data details both active and passive recreational opportunities including playgrounds, dog parks, ball fields, basketball courts and many others.    This data will be updated twice a year, in January and July.",
+      "title": "Parks and Recreation Amenities",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://data.norfolk.gov/api/views/46ui-daq6/rows.csv?accessType=DOWNLOAD",
+          "mediaType": "text/csv"
+        },
+        {
+          "mediaType": "application/rdf+xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/46ui-daq6/rows.rdf?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/46ui-daq6/columns.rdf",
+          "describedByType": "application/rdf+xml",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/json",
+          "downloadURL": "https://data.norfolk.gov/api/views/46ui-daq6/rows.json?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/46ui-daq6/columns.json",
+          "describedByType": "application/json",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/46ui-daq6/rows.xml?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/46ui-daq6/columns.xml",
+          "describedByType": "application/xml",
+          "@type": "dcat:Distribution"
+        }
+      ],
+      "theme": ["Recreation"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/4dwc-v3t8",
+      "issued": "2018-06-18",
+      "@type": "dcat:Dataset",
+      "modified": "2022-09-13",
+      "keyword": [
+        "city services & operations",
+        "make",
+        "model",
+        "trip ticket #",
+        "vin",
+        "year"
+      ],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/4dwc-v3t8",
+      "description": "This dataset contains information from the City’s towing database.  The data includes:  a list of vehicles currently on the City’s impound lot, VINs, the address where the vehicle was towed and why it was towed and the disposition of the vehicle (sold at auction, released to owner, etc.).  This dataset is updated daily.\n**Important Notice:  This fees included in this data are calculated on the day the vehicle is released from city custody. Fees for vehicles still held by the City will be calculated at the time of release and are not considered accurate until that time.",
+      "title": "Towing",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://data.norfolk.gov/api/views/4dwc-v3t8/rows.csv?accessType=DOWNLOAD",
+          "mediaType": "text/csv"
+        },
+        {
+          "mediaType": "application/rdf+xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/4dwc-v3t8/rows.rdf?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/4dwc-v3t8/columns.rdf",
+          "describedByType": "application/rdf+xml",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/json",
+          "downloadURL": "https://data.norfolk.gov/api/views/4dwc-v3t8/rows.json?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/4dwc-v3t8/columns.json",
+          "describedByType": "application/json",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/4dwc-v3t8/rows.xml?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/4dwc-v3t8/columns.xml",
+          "describedByType": "application/xml",
+          "@type": "dcat:Distribution"
+        }
+      ],
+      "theme": ["Government"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/4fsk-z8s8",
+      "issued": "2022-04-22",
+      "@type": "dcat:Dataset",
+      "modified": "2022-09-13",
+      "keyword": [
+        "compensation",
+        "employee",
+        "employee & budget information",
+        "job",
+        "pay",
+        "position",
+        "salary",
+        "staff & administration",
+        "title",
+        "wage"
+      ],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/4fsk-z8s8",
+      "description": "This dataset provides base salary information about City of Norfolk employees.  This data is provided by Norfolk's Department of Human Resources and is updated daily.",
+      "title": "Employee Salaries",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://data.norfolk.gov/api/views/4fsk-z8s8/rows.csv?accessType=DOWNLOAD",
+          "mediaType": "text/csv"
+        },
+        {
+          "mediaType": "application/rdf+xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/4fsk-z8s8/rows.rdf?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/4fsk-z8s8/columns.rdf",
+          "describedByType": "application/rdf+xml",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/json",
+          "downloadURL": "https://data.norfolk.gov/api/views/4fsk-z8s8/rows.json?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/4fsk-z8s8/columns.json",
+          "describedByType": "application/json",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/4fsk-z8s8/rows.xml?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/4fsk-z8s8/columns.xml",
+          "describedByType": "application/xml",
+          "@type": "dcat:Distribution"
+        }
+      ],
+      "theme": ["Government"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/4izx-65k9",
+      "issued": "2020-08-19",
+      "@type": "dcat:Dataset",
+      "modified": "2022-04-29",
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "keyword": ["bulk waste", "norfolk cares", "trash"],
+      "identifier": "https://data.norfolk.gov/api/views/4izx-65k9",
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "description": "",
+      "title": "Norfolk Cares about Bulk Waste!"
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/5qpt-tdve",
+      "issued": "2021-12-03",
+      "@type": "dcat:Dataset",
+      "modified": "2022-09-07",
+      "keyword": [
+        "days",
+        "grid address",
+        "lights",
+        "pole number",
+        "status",
+        "streetlight",
+        "streetlights",
+        "street lights",
+        "work order"
+      ],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/5qpt-tdve",
+      "description": "Information regarding Dominion Energy owned (city leased) streetlight locations and types within the city of Norfolk and monthly reporting of streetlight outages throughout the city.  The data is collected, updated, and maintained by Dominion Energy. The outages reported are those that have been reported by residents.\n\nThis data is updated weekly.",
+      "title": "Streetlights and Outages Reports",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://data.norfolk.gov/api/views/5qpt-tdve/rows.csv?accessType=DOWNLOAD",
+          "mediaType": "text/csv"
+        },
+        {
+          "mediaType": "application/rdf+xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/5qpt-tdve/rows.rdf?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/5qpt-tdve/columns.rdf",
+          "describedByType": "application/rdf+xml",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/json",
+          "downloadURL": "https://data.norfolk.gov/api/views/5qpt-tdve/rows.json?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/5qpt-tdve/columns.json",
+          "describedByType": "application/json",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/5qpt-tdve/rows.xml?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/5qpt-tdve/columns.xml",
+          "describedByType": "application/xml",
+          "@type": "dcat:Distribution"
+        }
+      ],
+      "theme": ["Public Safety"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/5u2f-xq92",
+      "issued": "2017-12-04",
+      "@type": "dcat:Dataset",
+      "modified": "2019-01-07",
+      "keyword": [
+        "community",
+        "crime",
+        "enforcement",
+        "law",
+        "maps",
+        "police",
+        "precinct",
+        "public safety"
+      ],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/5u2f-xq92",
+      "description": "CrimeMapping.com allows citizens to query and map recent crimes and incidents within the City’s borders. Crime data is extracted on a regular basis from each department's records system so that the information being viewed through a Web browser is the most current available.",
+      "title": "Crime Mapping",
+      "distribution": [
+        {
+          "mediaType": "text/html",
+          "downloadURL": "https://www.crimemapping.com/",
+          "description": "CrimeMapping.com has been developed to help law enforcement agencies throughout North America provide the public with valuable information about recent crime activity in their neighborhood.Our goal is to assist police departments in reducing crime through a better-informed citizenry. Creating more self-reliance among community members is a great benefit to community oriented policing efforts everywhere and has been proven effective in combating crime.\r\n\r\nCrimeMapping.com utilizes an advanced mapping engine, which helps us provide a high level of functionality as well as flexibility to the agencies we serve. Crime data is extracted on a regular basis from each department's records system so that the information being viewed through a Web browser is the most current available. This data is always verified for accuracy and all address information is generalized by block in order to help ensure privacy is protected.",
+          "@type": "dcat:Distribution",
+          "title": "CrimeMapping.com"
+        },
+        {
+          "mediaType": "text/html",
+          "downloadURL": "https://www.norfolk.gov/index.aspx?NID=310",
+          "description": "CrimeMapping.com has been developed to help law enforcement agencies throughout North America provide the public with valuable information about recent crime activity in their neighborhood.Our goal is to assist police departments in reducing crime through a better-informed citizenry. Creating more self-reliance among community members is a great benefit to community oriented policing efforts everywhere and has been proven effective in combating crime.\r\n\r\nCrimeMapping.com utilizes an advanced mapping engine, which helps us provide a high level of functionality as well as flexibility to the agencies we serve. Crime data is extracted on a regular basis from each department's records system so that the information being viewed through a Web browser is the most current available. This data is always verified for accuracy and all address information is generalized by block in order to help ensure privacy is protected.",
+          "@type": "dcat:Distribution",
+          "title": "CrimeMapping.com"
+        }
+      ],
+      "theme": ["Public Safety"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/6bim-y6fr",
+      "issued": "2020-11-02",
+      "@type": "dcat:Dataset",
+      "modified": "2022-09-13",
+      "keyword": ["flood", "resilience", "sensor", "stormwater", "tide"],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/6bim-y6fr",
+      "description": "This data is from five tide stations located in waterways throughout Norfolk: Elizabeth River, Grandy Village, Lafayette River, Mason Creek, Ocean View Recreation Center. This data will allow users to track and analyze tide levels in the city of Norfolk.  The data is updated every six minutes and encompasses a rolling year. \n\nNote:  At the Mason Creek tide station, the water flows through a weir system (small dam) that alters the flow characteristics of the water; data from this tide station will differ from the other four tide stations. \n\nNote:  The Pretty Lake tide station communication line has been damaged and is not currently transmitting data.  Repairs are underway and data transmission should begin again in June 2021.   \n\nDisclaimer: The City is making this data available with the understanding that it has not been reviewed or verified by an expert. Although the city makes every effort to ensure the tide gauges are accurate, we cannot guarantee the calibration or proper functioning of the gauges and accurate recording of measured tide levels at all times. In no event will the City of Norfolk be liable for any damages, including but not limited to loss or damage to property, lost profits, business interruption, loss of business information or other pecuniary loss that might arise from the use of this data. Any use of this data is for general information only and shall not be used for any improper purpose.",
+      "title": "Tide Sensors",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://data.norfolk.gov/api/views/6bim-y6fr/rows.csv?accessType=DOWNLOAD",
+          "mediaType": "text/csv"
+        },
+        {
+          "mediaType": "application/rdf+xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/6bim-y6fr/rows.rdf?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/6bim-y6fr/columns.rdf",
+          "describedByType": "application/rdf+xml",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/json",
+          "downloadURL": "https://data.norfolk.gov/api/views/6bim-y6fr/rows.json?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/6bim-y6fr/columns.json",
+          "describedByType": "application/json",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/6bim-y6fr/rows.xml?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/6bim-y6fr/columns.xml",
+          "describedByType": "application/xml",
+          "@type": "dcat:Distribution"
+        }
+      ],
+      "theme": ["Environment"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/7qie-z5gv",
+      "issued": "2020-10-14",
+      "@type": "dcat:Dataset",
+      "modified": "2022-09-13",
+      "keyword": [
+        "account number",
+        "interest due",
+        "owner name",
+        "penalty due",
+        "pin (parcel identification number)",
+        "property address",
+        "quarter",
+        "real estate & taxes",
+        "tax due",
+        "year"
+      ],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/7qie-z5gv",
+      "description": "******Disclaimer:  This data should not be relied upon for title examination or real estate closing requirements as deferral and tax relief programs may impact the amount due.  This data does not include nuisance abatement liens.\n\nThis dataset includes data on all real estate parcels in the city of Norfolk that are at least one quarter behind on taxes. Payments are processed as received requiring frequent updates to the data for accuracy.  City deferral and senior tax relief programs may impact r-portable data. The tax rate, penalty rate and interest rate are prescribed by city ordinance.",
+      "title": "Delinquent Property Taxes",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://data.norfolk.gov/api/views/7qie-z5gv/rows.csv?accessType=DOWNLOAD",
+          "mediaType": "text/csv"
+        },
+        {
+          "mediaType": "application/rdf+xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/7qie-z5gv/rows.rdf?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/7qie-z5gv/columns.rdf",
+          "describedByType": "application/rdf+xml",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/json",
+          "downloadURL": "https://data.norfolk.gov/api/views/7qie-z5gv/rows.json?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/7qie-z5gv/columns.json",
+          "describedByType": "application/json",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/7qie-z5gv/rows.xml?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/7qie-z5gv/columns.xml",
+          "describedByType": "application/xml",
+          "@type": "dcat:Distribution"
+        }
+      ],
+      "theme": ["Government"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/7tu9-2ytx",
+      "issued": "2021-07-27",
+      "@type": "dcat:Dataset",
+      "modified": "2022-03-18",
+      "keyword": [
+        "assessment",
+        "property",
+        "real estate",
+        "real estate & taxes",
+        "sales",
+        "value"
+      ],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/7tu9-2ytx",
+      "description": "This dataset represents real estate assessment and sales data that is updated on a quarterly basis by the Real Estate Assessor’s Office. This dataset contains information for properties in the city including: Acreage, Square footage, GPIN, Street Address, year built, current land value, current improvement values, and current total value. The information is obtained from Real Estate Assessor’s Office ProVal records database.",
+      "title": "Property Assessment and Sales - FY22",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://data.norfolk.gov/api/views/7tu9-2ytx/rows.csv?accessType=DOWNLOAD",
+          "mediaType": "text/csv"
+        },
+        {
+          "mediaType": "application/rdf+xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/7tu9-2ytx/rows.rdf?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/7tu9-2ytx/columns.rdf",
+          "describedByType": "application/rdf+xml",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/json",
+          "downloadURL": "https://data.norfolk.gov/api/views/7tu9-2ytx/rows.json?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/7tu9-2ytx/columns.json",
+          "describedByType": "application/json",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/7tu9-2ytx/rows.xml?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/7tu9-2ytx/columns.xml",
+          "describedByType": "application/xml",
+          "@type": "dcat:Distribution"
+        }
+      ],
+      "theme": ["Real Estate"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/89uf-7kym",
+      "issued": "2020-08-18",
+      "@type": "dcat:Dataset",
+      "modified": "2022-09-13",
+      "keyword": ["city services & operations", "libraries", "makerspace"],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/89uf-7kym",
+      "description": "This dataset details the number, duration and type of appointments that are made at the Slover Library Creative Studios. This dataset will enable users to learn about the equipment, facilities and services available to patrons.  Additionally, users can learn how many hours patrons use the equipment, facilities and services as well as which are the most requested.   \n\nThis dataset will be updated monthly.",
+      "title": "Slover Library Creative Studios",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://data.norfolk.gov/api/views/89uf-7kym/rows.csv?accessType=DOWNLOAD",
+          "mediaType": "text/csv"
+        },
+        {
+          "mediaType": "application/rdf+xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/89uf-7kym/rows.rdf?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/89uf-7kym/columns.rdf",
+          "describedByType": "application/rdf+xml",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/json",
+          "downloadURL": "https://data.norfolk.gov/api/views/89uf-7kym/rows.json?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/89uf-7kym/columns.json",
+          "describedByType": "application/json",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/89uf-7kym/rows.xml?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/89uf-7kym/columns.xml",
+          "describedByType": "application/xml",
+          "@type": "dcat:Distribution"
+        }
+      ],
+      "theme": ["Government"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/8bfx-a5g8",
+      "issued": "2020-09-16",
+      "@type": "dcat:Dataset",
+      "modified": "2021-03-01",
+      "keyword": [
+        "assessment",
+        "property",
+        "real estate",
+        "real estate & taxes",
+        "sales",
+        "value"
+      ],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/8bfx-a5g8",
+      "description": "This dataset represents real estate assessment and sales data that is updated on a quarterly basis by the Real Estate Assessor’s Office. This dataset contains information for properties in the city including: Acreage, Square footage, GPIN, Street Address, year built, current land value, current improvement values, and current total value. The information is obtained from Real Estate Assessor’s Office ProVal records database.",
+      "title": "Property Assessment and Sales - FY21",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://data.norfolk.gov/api/views/8bfx-a5g8/rows.csv?accessType=DOWNLOAD",
+          "mediaType": "text/csv"
+        },
+        {
+          "mediaType": "application/rdf+xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/8bfx-a5g8/rows.rdf?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/8bfx-a5g8/columns.rdf",
+          "describedByType": "application/rdf+xml",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/json",
+          "downloadURL": "https://data.norfolk.gov/api/views/8bfx-a5g8/rows.json?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/8bfx-a5g8/columns.json",
+          "describedByType": "application/json",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/8bfx-a5g8/rows.xml?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/8bfx-a5g8/columns.xml",
+          "describedByType": "application/xml",
+          "@type": "dcat:Distribution"
+        }
+      ],
+      "theme": ["Real Estate"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/8bq6-fd8n",
+      "issued": "2021-11-03",
+      "@type": "dcat:Dataset",
+      "modified": "2022-04-12",
+      "keyword": [
+        "adopt",
+        "adoption",
+        "child",
+        "children",
+        "city services & operations",
+        "demographics",
+        "foster"
+      ],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/8bq6-fd8n",
+      "description": "The dataset contains demographic and case characteristics of children in foster care each month.  The dataset includes the children’s sex, age, race, goal and average time spent in foster care in Norfolk. The data is from Virginia’s Online Automated Services Information System (OASIS). OASIS is a comprehensive system that tracks the day-to-day activities performed by social workers statewide and is the official case record system for foster care and adoption cases in Virginia.  \n\nThis dataset details the work accomplished by staff at the Norfolk Department of Human Services with the goal of finding safe, permanent homes for children in Norfolk’s foster care system. This dataset is updated monthly.",
+      "title": "Foster Care",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://data.norfolk.gov/api/views/8bq6-fd8n/rows.csv?accessType=DOWNLOAD",
+          "mediaType": "text/csv"
+        },
+        {
+          "mediaType": "application/rdf+xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/8bq6-fd8n/rows.rdf?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/8bq6-fd8n/columns.rdf",
+          "describedByType": "application/rdf+xml",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/json",
+          "downloadURL": "https://data.norfolk.gov/api/views/8bq6-fd8n/rows.json?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/8bq6-fd8n/columns.json",
+          "describedByType": "application/json",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/8bq6-fd8n/rows.xml?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/8bq6-fd8n/columns.xml",
+          "describedByType": "application/xml",
+          "@type": "dcat:Distribution"
+        }
+      ],
+      "theme": ["Government"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/8mx5-daqy",
+      "issued": "2019-04-23",
+      "@type": "dcat:Dataset",
+      "modified": "2019-05-01",
+      "keyword": ["department", "diversity", "gender", "status", "title"],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/8mx5-daqy",
+      "description": "The data for this report is derived from PeopleSoft Reporting, which includes the following fields, with one row per current active employee:\nAnnual Rate\nDepartment ID\nEthnic Group\nFull/Part Time Status\nGender\nJob Title\nReg/Temp Status\nRehire Date",
+      "title": "City of Norfolk's Diversity Dashboard",
+      "distribution": [
+        {
+          "mediaType": "text/html",
+          "downloadURL": "https://app.powerbigov.us/view?r=eyJrIjoiZTlmZjc0ZjItZTE5Yy00MTc5LTgwNWMtMzA2MDg5NmVkMDk5IiwidCI6IjUzODZkMzU1LTJmYWUtNGZlOC05MTc0LWI4OWU0MDhiYTk5MSJ9",
+          "description": "The data for this report is derived from PeopleSoft Reporting, which includes the following fields, with one row per current active employee:\nAnnual Rate\nDepartment ID\nEthnic Group\nFull/Part Time Status\nGender\nJob Title\nReg/Temp Status\nRehire Date",
+          "@type": "dcat:Distribution",
+          "title": "City of Norfolk's, Diversity Dashboard"
+        }
+      ],
+      "theme": ["Government"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/9ri5-nws2",
+      "issued": "2022-09-08",
+      "@type": "dcat:Dataset",
+      "modified": "2022-09-12",
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "identifier": "https://data.norfolk.gov/api/views/9ri5-nws2",
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "description": "",
+      "title": "Datathon Sources 2022"
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/9v4p-ntch",
+      "issued": "2022-05-18",
+      "@type": "dcat:Dataset",
+      "modified": "2022-09-13",
+      "keyword": [
+        "billing",
+        "dominion",
+        "electricity",
+        "energy",
+        "energycap",
+        "energy consumption",
+        "natural gas",
+        "propane",
+        "usage",
+        "virginia natural gas",
+        "vng"
+      ],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/9v4p-ntch",
+      "description": "This dataset contains the energy consumption for every building that is owned and occupied by the City of Norfolk. The dataset tracks electricity, natural gas, and water consumption by meter; most energy meters are tied to one building.  The energy consumption data is collected in EnergyCAP, a system of record that tracks Norfolk’s energy management and utility bill accounting. This data originates from monthly utility bills submitted by Norfolk’s energy vendors. In this dataset, users can explore the amount of electricity, natural gas and propane consumed monthly by municipal buildings in Norfolk as well as follow energy expenditure trends. The data is updated weekly.",
+      "title": "Municipal Building Energy Use",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://data.norfolk.gov/api/views/9v4p-ntch/rows.csv?accessType=DOWNLOAD",
+          "mediaType": "text/csv"
+        },
+        {
+          "mediaType": "application/rdf+xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/9v4p-ntch/rows.rdf?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/9v4p-ntch/columns.rdf",
+          "describedByType": "application/rdf+xml",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/json",
+          "downloadURL": "https://data.norfolk.gov/api/views/9v4p-ntch/rows.json?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/9v4p-ntch/columns.json",
+          "describedByType": "application/json",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/9v4p-ntch/rows.xml?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/9v4p-ntch/columns.xml",
+          "describedByType": "application/xml",
+          "@type": "dcat:Distribution"
+        }
+      ],
+      "theme": ["Environment"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/ajuc-ekph",
+      "issued": "2020-08-07",
+      "@type": "dcat:Dataset",
+      "modified": "2020-08-07",
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "keyword": ["micro-mobility", "scooter", "transit", "transportation"],
+      "identifier": "https://data.norfolk.gov/api/views/ajuc-ekph",
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "description": "",
+      "title": "Scooters -- On demand transportation for everyone",
+      "theme": ["Transit"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/bnrb-u445",
+      "issued": "2022-01-14",
+      "@type": "dcat:Dataset",
+      "modified": "2022-09-13",
+      "keyword": [
+        "building",
+        "city services & operations",
+        "closed",
+        "inspection",
+        "open",
+        "permit",
+        "status",
+        "violations"
+      ],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/bnrb-u445",
+      "description": "This dataset provides information about permits and their associated inspections, violations, and status information. Norfolk’s Development Service Center (DSC) issues building, plumbing, mechanical, electrical, fire, amusement, elevator, certificates of occupancy, and zoning permits.  The purpose of the DSC is to consolidate acquisition of permits to one central location within Norfolk City Hall for the convenience of customers. This dataset is updated daily.",
+      "title": "Permits and Inspections",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://data.norfolk.gov/api/views/bnrb-u445/rows.csv?accessType=DOWNLOAD",
+          "mediaType": "text/csv"
+        },
+        {
+          "mediaType": "application/rdf+xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/bnrb-u445/rows.rdf?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/bnrb-u445/columns.rdf",
+          "describedByType": "application/rdf+xml",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/json",
+          "downloadURL": "https://data.norfolk.gov/api/views/bnrb-u445/rows.json?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/bnrb-u445/columns.json",
+          "describedByType": "application/json",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/bnrb-u445/rows.xml?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/bnrb-u445/columns.xml",
+          "describedByType": "application/xml",
+          "@type": "dcat:Distribution"
+        }
+      ],
+      "theme": ["Permits"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/bxht-ygws",
+      "issued": "2020-10-21",
+      "@type": "dcat:Dataset",
+      "modified": "2020-10-22",
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "keyword": [
+        "city services & operations",
+        "libraries",
+        "library",
+        "makerspace",
+        "slover",
+        "studio"
+      ],
+      "identifier": "https://data.norfolk.gov/api/views/bxht-ygws",
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "description": "",
+      "title": "Slover Library",
+      "theme": ["Education"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/c7gp-ugij",
+      "issued": "2022-07-19",
+      "@type": "dcat:Dataset",
+      "modified": "2022-07-19",
+      "keyword": [
+        "art",
+        "arts",
+        "classes",
+        "education",
+        "events",
+        "gaming",
+        "higher education",
+        "instruction",
+        "learning",
+        "lifelong learning",
+        "programs",
+        "recreation",
+        "schools",
+        "seniors",
+        "workforce development",
+        "workshops"
+      ],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/c7gp-ugij",
+      "description": "This dataset details the type, intended audience, location, and time of activities and programs offered through Lifelong Learning. This dataset will enable users to learn the programs and activities available to residents and visitors. This data is updated annually.\n\nThe information contained in this dataset has been reported to the best of our knowledge. Information is updated regularly; for more information, please visit the webpage belonging to the organization or agency sponsoring the events.",
+      "title": "Lifelong Learning",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://data.norfolk.gov/api/views/c7gp-ugij/rows.csv?accessType=DOWNLOAD",
+          "mediaType": "text/csv"
+        },
+        {
+          "mediaType": "application/rdf+xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/c7gp-ugij/rows.rdf?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/c7gp-ugij/columns.rdf",
+          "describedByType": "application/rdf+xml",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/json",
+          "downloadURL": "https://data.norfolk.gov/api/views/c7gp-ugij/rows.json?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/c7gp-ugij/columns.json",
+          "describedByType": "application/json",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/c7gp-ugij/rows.xml?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/c7gp-ugij/columns.xml",
+          "describedByType": "application/xml",
+          "@type": "dcat:Distribution"
+        }
+      ],
+      "theme": ["Education"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/cab7-wvn5",
+      "issued": "2018-12-11",
+      "@type": "dcat:Dataset",
+      "modified": "2022-09-13",
+      "keyword": ["active warrants", "police", "wanted"],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/cab7-wvn5",
+      "description": "This dataset represents all active warrants recorded by the Norfolk Police Department. Warrants can be searched by type of crime, demographics of persons involved and total number of outstanding warrants.  This dataset is updated daily.  \n\nNote: this dataset does not contain any active warrants that could possibly:\n•\tjeopardize an ongoing investigation, or prosecution, or the safety of an individual, \n•\tcause a suspect to flee or evade detection,\n•\tresult in the destruction of evidence.",
+      "title": "Police Active Warrants",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://data.norfolk.gov/api/views/cab7-wvn5/rows.csv?accessType=DOWNLOAD",
+          "mediaType": "text/csv"
+        },
+        {
+          "mediaType": "application/rdf+xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/cab7-wvn5/rows.rdf?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/cab7-wvn5/columns.rdf",
+          "describedByType": "application/rdf+xml",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/json",
+          "downloadURL": "https://data.norfolk.gov/api/views/cab7-wvn5/rows.json?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/cab7-wvn5/columns.json",
+          "describedByType": "application/json",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/cab7-wvn5/rows.xml?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/cab7-wvn5/columns.xml",
+          "describedByType": "application/xml",
+          "@type": "dcat:Distribution"
+        }
+      ],
+      "theme": ["Public Safety"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/dijs-dhze",
+      "issued": "2022-04-21",
+      "@type": "dcat:Dataset",
+      "modified": "2022-04-29",
+      "keyword": [
+        "2000",
+        "2010",
+        "2020",
+        "census",
+        "count",
+        "decennial",
+        "ethnicity",
+        "group quarters",
+        "housing",
+        "population",
+        "race"
+      ],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/dijs-dhze",
+      "description": "This dataset contains Decennial Census data for Norfolk, Virginia. Every ten years ending in 0, the United Status Census Bureau conducts a census to determine the number of people living in the United States. The release of data includes counts for population, race, ethnicity, group quarters, and housing units. This dataset contains data for all of Norfolk, VA.\n\nSource: U.S. Census Bureau, 2020 Census Redistricting Data (Public Law 94-171)",
+      "title": "Norfolk Decennial Census",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://data.norfolk.gov/api/views/dijs-dhze/rows.csv?accessType=DOWNLOAD",
+          "mediaType": "text/csv"
+        },
+        {
+          "mediaType": "application/rdf+xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/dijs-dhze/rows.rdf?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/dijs-dhze/columns.rdf",
+          "describedByType": "application/rdf+xml",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/json",
+          "downloadURL": "https://data.norfolk.gov/api/views/dijs-dhze/rows.json?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/dijs-dhze/columns.json",
+          "describedByType": "application/json",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/dijs-dhze/rows.xml?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/dijs-dhze/columns.xml",
+          "describedByType": "application/xml",
+          "@type": "dcat:Distribution"
+        }
+      ],
+      "theme": ["Government"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/dpi6-sct5",
+      "issued": "2020-10-13",
+      "@type": "dcat:Dataset",
+      "modified": "2022-09-12",
+      "keyword": [
+        "enterprise zone",
+        "location address",
+        "mailing address",
+        "primary owner",
+        "staff & administration",
+        "trading-as name"
+      ],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/dpi6-sct5",
+      "description": "This dataset is all business licenses issued each month by the Commissioner of Revenue.\n\n****Disclaimer:  This dataset includes new business licenses that are issued every weekday by the Commissioner of the Revenue; starting January 2019.  This dataset does not include business license renewals or indicate businesses that are no longer in operation.",
+      "title": "Business Licenses",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://data.norfolk.gov/api/views/dpi6-sct5/rows.csv?accessType=DOWNLOAD",
+          "mediaType": "text/csv"
+        },
+        {
+          "mediaType": "application/rdf+xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/dpi6-sct5/rows.rdf?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/dpi6-sct5/columns.rdf",
+          "describedByType": "application/rdf+xml",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/json",
+          "downloadURL": "https://data.norfolk.gov/api/views/dpi6-sct5/rows.json?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/dpi6-sct5/columns.json",
+          "describedByType": "application/json",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/dpi6-sct5/rows.xml?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/dpi6-sct5/columns.xml",
+          "describedByType": "application/xml",
+          "@type": "dcat:Distribution"
+        }
+      ],
+      "theme": ["Government"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/e68x-a47n",
+      "issued": "2022-04-18",
+      "@type": "dcat:Dataset",
+      "modified": "2022-09-12",
+      "keyword": [
+        "adult",
+        "book",
+        "books",
+        "branch locations",
+        "cd",
+        "cds",
+        "checkouts",
+        "city services & operations",
+        "digital",
+        "dvd",
+        "dvds",
+        "juvenile",
+        "library card",
+        "location",
+        "magazine",
+        "month",
+        "norfolk resident",
+        "online",
+        "virginia resident",
+        "year",
+        "young adult",
+        "youth"
+      ],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/e68x-a47n",
+      "description": "This dataset contains information about circulation (checkouts) by item type for each Norfolk Public Library branch location by month. The data begins July 2016 and is updated monthly.",
+      "title": "Library Circulation Statistics",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://data.norfolk.gov/api/views/e68x-a47n/rows.csv?accessType=DOWNLOAD",
+          "mediaType": "text/csv"
+        },
+        {
+          "mediaType": "application/rdf+xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/e68x-a47n/rows.rdf?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/e68x-a47n/columns.rdf",
+          "describedByType": "application/rdf+xml",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/json",
+          "downloadURL": "https://data.norfolk.gov/api/views/e68x-a47n/rows.json?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/e68x-a47n/columns.json",
+          "describedByType": "application/json",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/e68x-a47n/rows.xml?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/e68x-a47n/columns.xml",
+          "describedByType": "application/xml",
+          "@type": "dcat:Distribution"
+        }
+      ],
+      "theme": ["Education"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/ei2q-6g8n",
+      "issued": "2020-10-20",
+      "@type": "dcat:Dataset",
+      "modified": "2021-09-03",
+      "keyword": [
+        "citation",
+        "city services & operations",
+        "code",
+        "date",
+        "fine",
+        "license plate",
+        "make",
+        "model",
+        "status",
+        "street"
+      ],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/ei2q-6g8n",
+      "description": "This dataset provides information about parking citations in the city of Norfolk.  \nData provided about the citations includes: time and date issued, violation type and code, location, state of vehicle registration, license plate numbers, make, model, and color of the vehicle, amount of parking citation fine.  \n\nThis dataset covers a period of three years and is updated weekly.",
+      "title": "Parking Citations",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://data.norfolk.gov/api/views/ei2q-6g8n/rows.csv?accessType=DOWNLOAD",
+          "mediaType": "text/csv"
+        },
+        {
+          "mediaType": "application/rdf+xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/ei2q-6g8n/rows.rdf?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/ei2q-6g8n/columns.rdf",
+          "describedByType": "application/rdf+xml",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/json",
+          "downloadURL": "https://data.norfolk.gov/api/views/ei2q-6g8n/rows.json?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/ei2q-6g8n/columns.json",
+          "describedByType": "application/json",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/ei2q-6g8n/rows.xml?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/ei2q-6g8n/columns.xml",
+          "describedByType": "application/xml",
+          "@type": "dcat:Distribution"
+        }
+      ],
+      "theme": ["Government"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/ere7-kake",
+      "issued": "2021-12-09",
+      "@type": "dcat:Dataset",
+      "modified": "2022-09-13",
+      "keyword": [
+        "address",
+        "distrcit",
+        "gpin",
+        "parcel",
+        "real estate & taxes",
+        "school",
+        "sector",
+        "ward",
+        "zone"
+      ],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/ere7-kake",
+      "description": "The Address Information Resource is a compilation of information related to active and pending addresses in the City of Norfolk.  It provides a consolidated source to allow for quick and easy access to information about an address including details related to school districts, municipal services, planning, public safety, and civic leadership.  It is one of the main data resources that provides content for the Norfolk AIR website (http://norfolkair.norfolk.gov/norfolkair).",
+      "title": "Address Information",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://data.norfolk.gov/api/views/ere7-kake/rows.csv?accessType=DOWNLOAD",
+          "mediaType": "text/csv"
+        },
+        {
+          "mediaType": "application/rdf+xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/ere7-kake/rows.rdf?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/ere7-kake/columns.rdf",
+          "describedByType": "application/rdf+xml",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/json",
+          "downloadURL": "https://data.norfolk.gov/api/views/ere7-kake/rows.json?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/ere7-kake/columns.json",
+          "describedByType": "application/json",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/ere7-kake/rows.xml?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/ere7-kake/columns.xml",
+          "describedByType": "application/xml",
+          "@type": "dcat:Distribution"
+        }
+      ],
+      "theme": ["Real Estate"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/fcqe-uvnb",
+      "issued": "2021-07-10",
+      "@type": "dcat:Dataset",
+      "modified": "2022-09-04",
+      "keyword": ["complaints", "incident", "police", "use of force"],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/fcqe-uvnb",
+      "description": "This dataset is reports of both use of force and citizen complaint incident reports recorded by the Norfolk Police Department.  An incident is considered an event that has been reported to the Police; it does not necessarily indicate a crime has occurred. Norfolk Police Department policy requires a Use-of-Force report every time an officer must do more than routine use of handcuffs or hands to hold, guide, or lead a person.  Complaint data for findings that are still pending are excluded from this report. This data will be updated every weekday and encompasses a rolling five years.",
+      "title": "Police Use of Force and Citizen Complaint Incidents",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://data.norfolk.gov/api/views/fcqe-uvnb/rows.csv?accessType=DOWNLOAD",
+          "mediaType": "text/csv"
+        },
+        {
+          "mediaType": "application/rdf+xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/fcqe-uvnb/rows.rdf?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/fcqe-uvnb/columns.rdf",
+          "describedByType": "application/rdf+xml",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/json",
+          "downloadURL": "https://data.norfolk.gov/api/views/fcqe-uvnb/rows.json?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/fcqe-uvnb/columns.json",
+          "describedByType": "application/json",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/fcqe-uvnb/rows.xml?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/fcqe-uvnb/columns.xml",
+          "describedByType": "application/xml",
+          "@type": "dcat:Distribution"
+        }
+      ],
+      "theme": ["Public Safety"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/fq9t-6imp",
+      "issued": "2022-04-05",
+      "@type": "dcat:Dataset",
+      "modified": "2022-09-12",
+      "keyword": [
+        "branch locations",
+        "city services & operations",
+        "digital",
+        "fiscal year",
+        "library card",
+        "norfolk resident",
+        "online",
+        "virginia resident"
+      ],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/fq9t-6imp",
+      "description": "This dataset contains information about Norfolk Public Library active users by month starting in July 2016. This information will be updated annually. Active users include users whose accounts have had any activity during the previous three years including card renewal, fines added, payments made, or computer usage. This dataset is updated monthly.",
+      "title": "Library Active Users Statistics",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://data.norfolk.gov/api/views/fq9t-6imp/rows.csv?accessType=DOWNLOAD",
+          "mediaType": "text/csv"
+        },
+        {
+          "mediaType": "application/rdf+xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/fq9t-6imp/rows.rdf?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/fq9t-6imp/columns.rdf",
+          "describedByType": "application/rdf+xml",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/json",
+          "downloadURL": "https://data.norfolk.gov/api/views/fq9t-6imp/rows.json?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/fq9t-6imp/columns.json",
+          "describedByType": "application/json",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/fq9t-6imp/rows.xml?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/fq9t-6imp/columns.xml",
+          "describedByType": "application/xml",
+          "@type": "dcat:Distribution"
+        }
+      ],
+      "theme": ["Education"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/frs3-vh3y",
+      "issued": "2022-01-05",
+      "@type": "dcat:Dataset",
+      "modified": "2022-03-07",
+      "keyword": [
+        "beach",
+        "behavior",
+        "change",
+        "cleanup",
+        "coastal",
+        "debris",
+        "international",
+        "itemize",
+        "litter",
+        "marine",
+        "track",
+        "trash",
+        "volunteer",
+        "waterway",
+        "world"
+      ],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/frs3-vh3y",
+      "description": "The International Coastal Cleanup is an international initiative that takes place annually September 1 through October 31.  The event is designed to remove trash from beaches and waterways around the world. This cleanup is fueled by volunteer organizations and individuals with the goal of changing behavior toward cleaner, healthier waterways. Each piece of debris collected from the cleanup site is identified and tracked to provide a cumulative understanding of the debris that may find its way to our beaches and waterways.  This dataset is updated annually.",
+      "title": "International Coastal Cleanup",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://data.norfolk.gov/api/views/frs3-vh3y/rows.csv?accessType=DOWNLOAD",
+          "mediaType": "text/csv"
+        },
+        {
+          "mediaType": "application/rdf+xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/frs3-vh3y/rows.rdf?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/frs3-vh3y/columns.rdf",
+          "describedByType": "application/rdf+xml",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/json",
+          "downloadURL": "https://data.norfolk.gov/api/views/frs3-vh3y/rows.json?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/frs3-vh3y/columns.json",
+          "describedByType": "application/json",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/frs3-vh3y/rows.xml?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/frs3-vh3y/columns.xml",
+          "describedByType": "application/xml",
+          "@type": "dcat:Distribution"
+        }
+      ],
+      "theme": ["Environment"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/ftnt-xds8",
+      "issued": "2019-04-23",
+      "@type": "dcat:Dataset",
+      "modified": "2022-01-12",
+      "keyword": ["budget", "departments", "expenditures", "revenue"],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/ftnt-xds8",
+      "description": "This link is to the City of Norfolk's Total Revenues and Total Expenditures Dashboard",
+      "title": "Revenue and Expenditures Dashboard",
+      "distribution": [
+        {
+          "mediaType": "text/html",
+          "downloadURL": "https://app.powerbigov.us/view?r=eyJrIjoiNzIxM2EzNDctMTY3OC00YzQwLWJhYzctYjJiZjEzZmU0YzAyIiwidCI6IjUzODZkMzU1LTJmYWUtNGZlOC05MTc0LWI4OWU0MDhiYTk5MSJ9",
+          "description": "Link to the City of Norfolk's Revenue and Expenditure Summary Dashboard\n",
+          "@type": "dcat:Distribution",
+          "title": "City of Norfolk Revenue and Expenditure Summary Dashboard"
+        }
+      ],
+      "theme": ["Government"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/fudv-7afi",
+      "issued": "2019-04-08",
+      "@type": "dcat:Dataset",
+      "modified": "2022-03-30",
+      "keyword": [
+        "access code",
+        "bike",
+        "bike event",
+        "bike number",
+        "end trip",
+        "pace bikes",
+        "start trip",
+        "trip id",
+        "user id"
+      ],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/fudv-7afi",
+      "description": "Norfolk’s Pace Bike Share program launched in April 2018. Pace is a vendor that provided 250 shared bikes in Norfolk for public use. This dataset only includes trip path data collected in 2018. The city was unable to obtain 2019 data from the vendor. Trip data is tracked by user’s cell phones, not by a device on the bicycle, which may result in anomalies in the data. The city makes no representation or warranty as to the completeness or accuracy of the data.\n\n*The Pace Bike Share program no longer operates in Norfolk as of early 2020.",
+      "title": "Pace Bike Rentals - 2018 Trip Path Data",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://data.norfolk.gov/api/views/fudv-7afi/rows.csv?accessType=DOWNLOAD",
+          "mediaType": "text/csv"
+        },
+        {
+          "mediaType": "application/rdf+xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/fudv-7afi/rows.rdf?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/fudv-7afi/columns.rdf",
+          "describedByType": "application/rdf+xml",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/json",
+          "downloadURL": "https://data.norfolk.gov/api/views/fudv-7afi/rows.json?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/fudv-7afi/columns.json",
+          "describedByType": "application/json",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/fudv-7afi/rows.xml?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/fudv-7afi/columns.xml",
+          "describedByType": "application/xml",
+          "@type": "dcat:Distribution"
+        }
+      ],
+      "theme": ["Government"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/fumf-ph9r",
+      "issued": "2019-04-29",
+      "@type": "dcat:Dataset",
+      "modified": "2021-08-18",
+      "keyword": [
+        "capital improvement plan",
+        "employee & budget information",
+        "location",
+        "project",
+        "staff & administration",
+        "status",
+        "ward"
+      ],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/fumf-ph9r",
+      "description": "The Capital Improvement Plan (CIP) is a multi-year plan for capital expenditures to replace, maintain, and expand the city’s infrastructure.  The city uses the CIP to develop infrastructure and maintain the quality of life offered to residents and businesses.\n\n*Disclaimer: Projects are based on Proposed FY 2020 - FY 2024 Capital Improvement Plan and are subject to change.",
+      "title": "Capital Improvement Projects (CIP) - FY20",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://data.norfolk.gov/api/views/fumf-ph9r/rows.csv?accessType=DOWNLOAD",
+          "mediaType": "text/csv"
+        },
+        {
+          "mediaType": "application/rdf+xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/fumf-ph9r/rows.rdf?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/fumf-ph9r/columns.rdf",
+          "describedByType": "application/rdf+xml",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/json",
+          "downloadURL": "https://data.norfolk.gov/api/views/fumf-ph9r/rows.json?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/fumf-ph9r/columns.json",
+          "describedByType": "application/json",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/fumf-ph9r/rows.xml?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/fumf-ph9r/columns.xml",
+          "describedByType": "application/xml",
+          "@type": "dcat:Distribution"
+        }
+      ],
+      "theme": ["Government"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/g2tj-bgkk",
+      "issued": "2020-01-22",
+      "@type": "dcat:Dataset",
+      "modified": "2020-02-14",
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "keyword": ["adoption", "animal", "breed", "foster"],
+      "identifier": "https://data.norfolk.gov/api/views/g2tj-bgkk",
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "description": "",
+      "title": "Norfolk Animal Care and Adoption Center: Finding fur-ever homes for all adoptable animals",
+      "theme": ["Government"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/gi5t-nkzw",
+      "issued": "2019-07-17",
+      "@type": "dcat:Dataset",
+      "modified": "2019-08-15",
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "keyword": [
+        "census tract",
+        "claim",
+        "fema",
+        "flood",
+        "occupancy type",
+        "year"
+      ],
+      "identifier": "https://data.norfolk.gov/api/views/gi5t-nkzw",
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "description": "",
+      "title": "FEMA National Flood Insurance Program Redacted Claims"
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/id3i-2az4",
+      "issued": "2020-02-19",
+      "@type": "dcat:Dataset",
+      "modified": "2022-01-12",
+      "keyword": [
+        "employee & budget information",
+        "finance",
+        "revenue",
+        "staff & administration"
+      ],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/id3i-2az4",
+      "description": "This dataset summarizes the city’s various revenue sources.  The revenue dataset reflects money coming into the city; some examples include real estate tax payments, state aid and parking fine collections. The city’s financial system, where revenue collections are recorded daily, is the source for this data. \n\nThis data also contains current budget information based on the revenue budget adopted by City Council ahead of each fiscal year.  This budget allows city staff to monitor and track revenue collections during the year.   The data set includes the current fiscal year and two previous fiscal years.  \n\n*Disclaimer: Revenues will reflect the previous fiscal year’s activity until final entries have been made and the accounting period has been closed.",
+      "title": "Annual Revenues",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://data.norfolk.gov/api/views/id3i-2az4/rows.csv?accessType=DOWNLOAD",
+          "mediaType": "text/csv"
+        },
+        {
+          "mediaType": "application/rdf+xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/id3i-2az4/rows.rdf?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/id3i-2az4/columns.rdf",
+          "describedByType": "application/rdf+xml",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/json",
+          "downloadURL": "https://data.norfolk.gov/api/views/id3i-2az4/rows.json?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/id3i-2az4/columns.json",
+          "describedByType": "application/json",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/id3i-2az4/rows.xml?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/id3i-2az4/columns.xml",
+          "describedByType": "application/xml",
+          "@type": "dcat:Distribution"
+        }
+      ],
+      "theme": ["Government"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/jagz-9a37",
+      "issued": "2021-04-07",
+      "@type": "dcat:Dataset",
+      "modified": "2022-09-13",
+      "keyword": ["address", "street names"],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/jagz-9a37",
+      "description": "Information containing the master list of addresses in the city.\nAddresses in this dataset are classified by status which indicates if an address is an active valid address, a pending address which is a place holder and not yet validated, or a historical address which is no longer an active valid address in the city. Addresses are also identified by type of Base or City. Base addresses are included for some areas because the City has an emergency response agreement.",
+      "title": "Norfolk Master Address List",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://data.norfolk.gov/api/views/jagz-9a37/rows.csv?accessType=DOWNLOAD",
+          "mediaType": "text/csv"
+        },
+        {
+          "mediaType": "application/rdf+xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/jagz-9a37/rows.rdf?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/jagz-9a37/columns.rdf",
+          "describedByType": "application/rdf+xml",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/json",
+          "downloadURL": "https://data.norfolk.gov/api/views/jagz-9a37/rows.json?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/jagz-9a37/columns.json",
+          "describedByType": "application/json",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/jagz-9a37/rows.xml?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/jagz-9a37/columns.xml",
+          "describedByType": "application/xml",
+          "@type": "dcat:Distribution"
+        }
+      ],
+      "theme": ["Real Estate"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/jf3j-u4s7",
+      "issued": "2021-07-28",
+      "@type": "dcat:Dataset",
+      "modified": "2022-09-13",
+      "keyword": ["fire", "fire-rescue", "inspection", "violation"],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/jf3j-u4s7",
+      "description": "This dataset provides information about the fire inspections conducted by Norfolk’s Department of Fire-Rescue.  This data is downloaded from Firehouse, a system of record used by Fire-Rescue.  This dataset includes seven years of data and is updated daily on weekdays.",
+      "title": "Fire-Rescue Inspections",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://data.norfolk.gov/api/views/jf3j-u4s7/rows.csv?accessType=DOWNLOAD",
+          "mediaType": "text/csv"
+        },
+        {
+          "mediaType": "application/rdf+xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/jf3j-u4s7/rows.rdf?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/jf3j-u4s7/columns.rdf",
+          "describedByType": "application/rdf+xml",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/json",
+          "downloadURL": "https://data.norfolk.gov/api/views/jf3j-u4s7/rows.json?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/jf3j-u4s7/columns.json",
+          "describedByType": "application/json",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/jf3j-u4s7/rows.xml?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/jf3j-u4s7/columns.xml",
+          "describedByType": "application/xml",
+          "@type": "dcat:Distribution"
+        }
+      ],
+      "theme": ["Public Safety"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/jz6u-9g3c",
+      "issued": "2021-02-03",
+      "@type": "dcat:Dataset",
+      "modified": "2021-04-13",
+      "keyword": [
+        "benefits",
+        "canopy",
+        "diameter",
+        "height",
+        "significant",
+        "trees"
+      ],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/jz6u-9g3c",
+      "description": "Volunteers with the Norfolk Master Gardeners gather this data about significant trees in Norfolk.  The data collected about these trees includes diameter, height, canopy spread, general location and species.  The data is updated every five years.",
+      "title": "Significant Trees",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://data.norfolk.gov/api/views/jz6u-9g3c/rows.csv?accessType=DOWNLOAD",
+          "mediaType": "text/csv"
+        },
+        {
+          "mediaType": "application/rdf+xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/jz6u-9g3c/rows.rdf?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/jz6u-9g3c/columns.rdf",
+          "describedByType": "application/rdf+xml",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/json",
+          "downloadURL": "https://data.norfolk.gov/api/views/jz6u-9g3c/rows.json?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/jz6u-9g3c/columns.json",
+          "describedByType": "application/json",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/jz6u-9g3c/rows.xml?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/jz6u-9g3c/columns.xml",
+          "describedByType": "application/xml",
+          "@type": "dcat:Distribution"
+        }
+      ],
+      "theme": ["Recreation"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/k8ry-iqjg",
+      "issued": "2019-03-25",
+      "@type": "dcat:Dataset",
+      "modified": "2022-08-02",
+      "keyword": [
+        "art",
+        "artifacts",
+        "artist",
+        "artwork name",
+        "category",
+        "credit",
+        "installation",
+        "installation date",
+        "location",
+        "media",
+        "mosaic",
+        "mural",
+        "painting",
+        "photography",
+        "public",
+        "sculpture"
+      ],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/k8ry-iqjg",
+      "description": "Public art is artwork in public locations where everyone can see and enjoy it.\nNorfolk is among the great cities that use public art to inspire, educate, beautify and give character to public places. The Public Arts Commission together with city staff, developed policies for the development of artwork that creates a unique image and sense of place for Norfolk. This dataset is a compiled list of existing public art recorded by Norfolk. This data is updated annually.\n*Please note this dataset does not include the Mermaid Statues.",
+      "title": "Public Art",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://data.norfolk.gov/api/views/k8ry-iqjg/rows.csv?accessType=DOWNLOAD",
+          "mediaType": "text/csv"
+        },
+        {
+          "mediaType": "application/rdf+xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/k8ry-iqjg/rows.rdf?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/k8ry-iqjg/columns.rdf",
+          "describedByType": "application/rdf+xml",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/json",
+          "downloadURL": "https://data.norfolk.gov/api/views/k8ry-iqjg/rows.json?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/k8ry-iqjg/columns.json",
+          "describedByType": "application/json",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/k8ry-iqjg/rows.xml?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/k8ry-iqjg/columns.xml",
+          "describedByType": "application/xml",
+          "@type": "dcat:Distribution"
+        }
+      ],
+      "theme": ["Government"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/mcyd-dgr4",
+      "issued": "2022-07-15",
+      "@type": "dcat:Dataset",
+      "modified": "2022-07-29",
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "identifier": "https://data.norfolk.gov/api/views/mcyd-dgr4",
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "description": "",
+      "title": "FAQ"
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/mdwe-dquf",
+      "issued": "2020-02-19",
+      "@type": "dcat:Dataset",
+      "modified": "2022-01-12",
+      "keyword": [
+        "budget",
+        "employee & budget information",
+        "expenditures",
+        "finance",
+        "staff & administration"
+      ],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/mdwe-dquf",
+      "description": "This dataset summarizes the city’s cash outlays and accruals for the cost of goods received or services rendered, by department, department unit/division, and expenditure type, for three years; the current fiscal year and two previous fiscal years. The city's fiscal year runs July 1 to June 30.  The city’s financial system, where transactions are recorded daily, is the source for this data. The data also contains current budget information. Current budget reflects budget transfers and amendments during the fiscal year that have transpired since City Council adopted the budget prior to the beginning of the current fiscal year.  The data is refreshed daily, and the expenditure amounts are current as of the date it was last refreshed.  \n\n*Disclaimer: Expenditures will reflect the previous fiscal year’s activity until final entries have been made and the accounting period has been closed.",
+      "title": "Annual Expenditures",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://data.norfolk.gov/api/views/mdwe-dquf/rows.csv?accessType=DOWNLOAD",
+          "mediaType": "text/csv"
+        },
+        {
+          "mediaType": "application/rdf+xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/mdwe-dquf/rows.rdf?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/mdwe-dquf/columns.rdf",
+          "describedByType": "application/rdf+xml",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/json",
+          "downloadURL": "https://data.norfolk.gov/api/views/mdwe-dquf/rows.json?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/mdwe-dquf/columns.json",
+          "describedByType": "application/json",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/mdwe-dquf/rows.xml?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/mdwe-dquf/columns.xml",
+          "describedByType": "application/xml",
+          "@type": "dcat:Distribution"
+        }
+      ],
+      "theme": ["Government"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/mi4h-8pn3",
+      "issued": "2022-04-13",
+      "@type": "dcat:Dataset",
+      "modified": "2022-09-13",
+      "keyword": [
+        "cell",
+        "city services & operations",
+        "end date",
+        "issued on",
+        "name",
+        "permit kind",
+        "permit number",
+        "start date",
+        "street",
+        "street number",
+        "type",
+        "x coordinate",
+        "y coordinate"
+      ],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/mi4h-8pn3",
+      "description": "The dataset contains information on permits issued by the Right of Way Management Division. The dataset contains open permits including: right of way excavations and installations, residential and commercial driveway entrances, general temporary parking, storage, and dumpsters, hauling oversize and cranes, and lane, street, and sidewalk closures. The dataset provides information on issue, start and end dates, applicant, work performed for, type and kind of permit, inspector, contact number, and geographic coordinates.  \n\nThis data is updated daily on weekdays.  \n\nClick here for details on Right of Way permit fees:  https://www.norfolk.gov/DocumentCenter/View/789\n\nClich here for a map showing all permit activity locations: \nhttps://batchgeo.com/map/64a1948c2f9487b290d8f12f798b9859",
+      "title": "Permits - Right of Way",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://data.norfolk.gov/api/views/mi4h-8pn3/rows.csv?accessType=DOWNLOAD",
+          "mediaType": "text/csv"
+        },
+        {
+          "mediaType": "application/rdf+xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/mi4h-8pn3/rows.rdf?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/mi4h-8pn3/columns.rdf",
+          "describedByType": "application/rdf+xml",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/json",
+          "downloadURL": "https://data.norfolk.gov/api/views/mi4h-8pn3/rows.json?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/mi4h-8pn3/columns.json",
+          "describedByType": "application/json",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/mi4h-8pn3/rows.xml?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/mi4h-8pn3/columns.xml",
+          "describedByType": "application/xml",
+          "@type": "dcat:Distribution"
+        }
+      ],
+      "theme": ["Permits"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/mrv3-rcpc",
+      "issued": "2020-04-14",
+      "@type": "dcat:Dataset",
+      "modified": "2020-11-17",
+      "keyword": [
+        "city services & operations",
+        "damage",
+        "flood",
+        "gis",
+        "hurricane",
+        "public safety",
+        "snow",
+        "storm",
+        "thunderstorm"
+      ],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/mrv3-rcpc",
+      "description": "This dataset provides an extract from Norfolk's STORM application.  STORM, an acronym for System to Track, Organize, Record and Map, captures data collected by residents and city staff during and after inclement weather events.  The app captures incidents such as flooded streets, damaged trees, disabled vehicles, downed cable lines, etc. This dataset provides a record of reported events entered into STORM beginning in 2010; the dataset is updated during and after weather events.",
+      "title": "STORM | System to Track, Organize, Record, and Map",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://data.norfolk.gov/api/views/mrv3-rcpc/rows.csv?accessType=DOWNLOAD",
+          "mediaType": "text/csv"
+        },
+        {
+          "mediaType": "application/rdf+xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/mrv3-rcpc/rows.rdf?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/mrv3-rcpc/columns.rdf",
+          "describedByType": "application/rdf+xml",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/json",
+          "downloadURL": "https://data.norfolk.gov/api/views/mrv3-rcpc/rows.json?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/mrv3-rcpc/columns.json",
+          "describedByType": "application/json",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/mrv3-rcpc/rows.xml?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/mrv3-rcpc/columns.xml",
+          "describedByType": "application/xml",
+          "@type": "dcat:Distribution"
+        }
+      ],
+      "theme": ["Public Safety"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/mucs-3kd7",
+      "issued": "2021-03-03",
+      "@type": "dcat:Dataset",
+      "modified": "2021-03-03",
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "keyword": [
+        "city services & operations",
+        "equipment",
+        "fleet",
+        "vehicle"
+      ],
+      "identifier": "https://data.norfolk.gov/api/views/mucs-3kd7",
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "description": "",
+      "title": "Fleet Services: Let's Roll",
+      "theme": ["Government"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/mxtv-99gh",
+      "issued": "2020-11-16",
+      "@type": "dcat:Dataset",
+      "modified": "2022-09-13",
+      "keyword": [
+        "address",
+        "city services & operations",
+        "civic league",
+        "code",
+        "complaint",
+        "inspection",
+        "ordinance",
+        "status",
+        "super ward",
+        "violation",
+        "ward"
+      ],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/mxtv-99gh",
+      "description": "This dataset provides data from the Norfolk Division of Neighborhood Quality’s code enforcement cases including associated inspections, violations and status.  The mission of the Division of Neighborhood Quality is to maintain and strengthen neighborhood standards. Staff use a variety of tools to achieve compliance including educating civic leagues, residents and the public about neighborhood quality.  Other tools include working with homeowners to establish timelines for projects or pursuing legal steps for abatement. This data reflects the workflow of a responsive customer-oriented organization.",
+      "title": "Neighborhood Quality Code Enforcement Cases",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://data.norfolk.gov/api/views/mxtv-99gh/rows.csv?accessType=DOWNLOAD",
+          "mediaType": "text/csv"
+        },
+        {
+          "mediaType": "application/rdf+xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/mxtv-99gh/rows.rdf?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/mxtv-99gh/columns.rdf",
+          "describedByType": "application/rdf+xml",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/json",
+          "downloadURL": "https://data.norfolk.gov/api/views/mxtv-99gh/rows.json?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/mxtv-99gh/columns.json",
+          "describedByType": "application/json",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/mxtv-99gh/rows.xml?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/mxtv-99gh/columns.xml",
+          "describedByType": "application/xml",
+          "@type": "dcat:Distribution"
+        }
+      ],
+      "theme": ["Government"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/nbyu-xjez",
+      "issued": "2020-06-23",
+      "@type": "dcat:Dataset",
+      "modified": "2022-09-13",
+      "keyword": [
+        "311",
+        "call center",
+        "city services & operations",
+        "engagement",
+        "neighborhood quality",
+        "norfolk",
+        "norfolk cares center",
+        "requests"
+      ],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/nbyu-xjez",
+      "description": "This dataset provides data from MyNorfolk, a citizen services portal that delegates and tracks requests and questions about the city of Norfolk and the services we provide to our residents, businesses, and visitors.  Data for the service requests is collected from phone calls, emails, an app for smart phones and on-line. The portal is managed by the Norfolk Cares Center; its mission is to provide a single point of contact for visitors, residents, businesses and city staff to request a city service, report a concern, seek information about Norfolk, or follow-up on a previous request for service.\n\n**Disclaimer - With the current process in place, not all tickets are closed automatically. There could be tickets shown as open in this dataset that are closed in our other systems. We are working to address the issue.",
+      "title": "MyNorfolk",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://data.norfolk.gov/api/views/nbyu-xjez/rows.csv?accessType=DOWNLOAD",
+          "mediaType": "text/csv"
+        },
+        {
+          "mediaType": "application/rdf+xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/nbyu-xjez/rows.rdf?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/nbyu-xjez/columns.rdf",
+          "describedByType": "application/rdf+xml",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/json",
+          "downloadURL": "https://data.norfolk.gov/api/views/nbyu-xjez/rows.json?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/nbyu-xjez/columns.json",
+          "describedByType": "application/json",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/nbyu-xjez/rows.xml?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/nbyu-xjez/columns.xml",
+          "describedByType": "application/xml",
+          "@type": "dcat:Distribution"
+        }
+      ],
+      "theme": ["Government"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/nbz2-dgus",
+      "issued": "2019-09-03",
+      "@type": "dcat:Dataset",
+      "modified": "2020-12-11",
+      "keyword": [
+        "america",
+        "appearance",
+        "beautiful",
+        "clean",
+        "community",
+        "index",
+        "keep",
+        "litter",
+        "norfolk",
+        "route",
+        "score",
+        "tool",
+        "volunteer",
+        "ward"
+      ],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/nbz2-dgus",
+      "description": "The Community Appearance Index, also known as the Litter Index, is a tool designed by Keep America Beautiful to visually evaluate the overall appearance of a community using litter as an indicator. Every year, 60 routes throughout the five wards of Norfolk are analyzed to determine the cleanliness of the city. After a thorough training, a team of volunteers conduct the analysis using a scoring system ranging from 1-4 with “1” indicating minimal to no litter and “4” indicating extremely littered. Methodology for this process includes recruiting volunteers who commit to attend a one-and-a-half-day Community Appearance Index scan. Each volunteer is thoroughly trained on the index to accurately and consistently survey a statistical sample of the city. The results of the scan are then averaged to produce the City of Norfolk Community Appearance Index score.\n\nThis dataset is updated annually; the data begins in 2010.  The Litter Index survey is normally conducted in August; the 2020 survey will be delayed due to COVID-19.",
+      "title": "Litter Index",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://data.norfolk.gov/api/views/nbz2-dgus/rows.csv?accessType=DOWNLOAD",
+          "mediaType": "text/csv"
+        },
+        {
+          "mediaType": "application/rdf+xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/nbz2-dgus/rows.rdf?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/nbz2-dgus/columns.rdf",
+          "describedByType": "application/rdf+xml",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/json",
+          "downloadURL": "https://data.norfolk.gov/api/views/nbz2-dgus/rows.json?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/nbz2-dgus/columns.json",
+          "describedByType": "application/json",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/nbz2-dgus/rows.xml?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/nbz2-dgus/columns.xml",
+          "describedByType": "application/xml",
+          "@type": "dcat:Distribution"
+        }
+      ],
+      "theme": ["Environment"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/nsmp-qj9z",
+      "issued": "2019-04-17",
+      "@type": "dcat:Dataset",
+      "modified": "2022-08-09",
+      "keyword": [
+        "budget",
+        "cip",
+        "citywide",
+        "department",
+        "undetermined",
+        "ward"
+      ],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/nsmp-qj9z",
+      "description": "This link is to the City of Norfolk's Capital Improvements Projects (CIP) Dashboard.\n\nDisclaimer: Projects are based on the Adopted FY 2023 - FY 2027 Capital Improvement Plan and are subject to change.",
+      "title": "City of Norfolk FY 2023 Proposed Adopted CIP Projects Dashboard",
+      "distribution": [
+        {
+          "mediaType": "text/html",
+          "downloadURL": "https://app.powerbigov.us/view?r=eyJrIjoiNjk4ZWMwZDYtODIxYi00MDUyLTgwZGQtNGQxZDcwZDllZWVjIiwidCI6IjUzODZkMzU1LTJmYWUtNGZlOC05MTc0LWI4OWU0MDhiYTk5MSJ9",
+          "description": "This link is to the City of Norfolk's Capital Improvements Projects (CIP) Dashboard.\n\nDisclaimer: Projects are based on the Adopted FY 2023 - FY 2027 Capital Improvement Plan and are subject to change.",
+          "@type": "dcat:Distribution",
+          "title": "City of Norfolk's, FY 2023 Proposed Adopted CIP Projects"
+        }
+      ],
+      "theme": ["Government"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/p5hy-7rkp",
+      "issued": "2020-04-28",
+      "@type": "dcat:Dataset",
+      "modified": "2020-11-04",
+      "keyword": [
+        "311",
+        "call center",
+        "city services & operations",
+        "neighborhood quality",
+        "norfolk",
+        "norfolk cares",
+        "requests"
+      ],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/p5hy-7rkp",
+      "description": "As of October 30, 2019, this data set will no longer be updated.  A new citizen request app, called MyNorfolk, has been implemented and data from that app is available in this Open Data portal. \n\nThe Norfolk Cares data set provides data from the IMPACT System. The data was collected by phone calls, emails, iPhone requests, and on-line requests.  This data set includes service requests from November 2014 to October 2019.",
+      "title": "Norfolk Cares Center",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://data.norfolk.gov/api/views/p5hy-7rkp/rows.csv?accessType=DOWNLOAD",
+          "mediaType": "text/csv"
+        },
+        {
+          "mediaType": "application/rdf+xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/p5hy-7rkp/rows.rdf?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/p5hy-7rkp/columns.rdf",
+          "describedByType": "application/rdf+xml",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/json",
+          "downloadURL": "https://data.norfolk.gov/api/views/p5hy-7rkp/rows.json?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/p5hy-7rkp/columns.json",
+          "describedByType": "application/json",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/p5hy-7rkp/rows.xml?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/p5hy-7rkp/columns.xml",
+          "describedByType": "application/xml",
+          "@type": "dcat:Distribution"
+        }
+      ],
+      "theme": ["Government"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/pdf2-gh9c",
+      "issued": "2020-06-16",
+      "@type": "dcat:Dataset",
+      "modified": "2020-06-16",
+      "keyword": ["assessment", "property", "real estate", "sales", "value"],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/pdf2-gh9c",
+      "description": "This dataset represents real estate assessment and sales data that is updated on a quarterly basis by the Real Estate Assessor’s Office. This dataset contains information for properties in the city including: Acreage, Square footage, GPIN, Street Address, year built, current land value, current improvement values, and current total value. The information is obtained from Real Estate Assessor’s Office ProVal records database.",
+      "title": "Property Assessment and Sales - FY20",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://data.norfolk.gov/api/views/pdf2-gh9c/rows.csv?accessType=DOWNLOAD",
+          "mediaType": "text/csv"
+        },
+        {
+          "mediaType": "application/rdf+xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/pdf2-gh9c/rows.rdf?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/pdf2-gh9c/columns.rdf",
+          "describedByType": "application/rdf+xml",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/json",
+          "downloadURL": "https://data.norfolk.gov/api/views/pdf2-gh9c/rows.json?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/pdf2-gh9c/columns.json",
+          "describedByType": "application/json",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/pdf2-gh9c/rows.xml?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/pdf2-gh9c/columns.xml",
+          "describedByType": "application/xml",
+          "@type": "dcat:Distribution"
+        }
+      ],
+      "theme": ["Real Estate"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/pwzd-ddfh",
+      "issued": "2018-10-25",
+      "@type": "dcat:Dataset",
+      "modified": "2019-01-02",
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "keyword": ["clean up", "environmental", "litter"],
+      "identifier": "https://data.norfolk.gov/api/views/pwzd-ddfh",
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "description": "",
+      "title": "Keep Norfolk Beautiful -- Litter Index",
+      "theme": ["Environment"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/q552-bpmw",
+      "issued": "2022-05-25",
+      "@type": "dcat:Dataset",
+      "modified": "2022-06-08",
+      "keyword": [
+        "acs",
+        "age",
+        "american community survey",
+        "broadband",
+        "census",
+        "education",
+        "employment",
+        "ethnicity",
+        "gender",
+        "households",
+        "housing",
+        "income",
+        "internet",
+        "population",
+        "poverty",
+        "race",
+        "school",
+        "unemployment",
+        "vehicles"
+      ],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/q552-bpmw",
+      "description": "This dataset contains the American Community Survey (ACS) five-year estimates for Norfolk, Virginia. According to the United States Census Bureau, the ACS is the premier source for detailed population and housing information about communities and the nation. Every year, the Census Bureau conducts a survey and creates estimates for demographic categories such as income, employment, poverty, race, ethnicity, housing, age, gender, internet access, vehicle access, and other topics. For census tracts, 5-year estimates are generated and released to the public. \nThis dataset includes five-year estimates released in 2020 for census tracts in Norfolk, VA and will be updated annually with each new release of five-year estimates.",
+      "title": "Norfolk 2020 American Community Survey Five-Year Estimates",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://data.norfolk.gov/api/views/q552-bpmw/rows.csv?accessType=DOWNLOAD",
+          "mediaType": "text/csv"
+        },
+        {
+          "mediaType": "application/rdf+xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/q552-bpmw/rows.rdf?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/q552-bpmw/columns.rdf",
+          "describedByType": "application/rdf+xml",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/json",
+          "downloadURL": "https://data.norfolk.gov/api/views/q552-bpmw/rows.json?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/q552-bpmw/columns.json",
+          "describedByType": "application/json",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/q552-bpmw/rows.xml?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/q552-bpmw/columns.xml",
+          "describedByType": "application/xml",
+          "@type": "dcat:Distribution"
+        }
+      ],
+      "theme": ["Government"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/qzfe-wj25",
+      "issued": "2022-06-27",
+      "@type": "dcat:Dataset",
+      "modified": "2022-09-13",
+      "keyword": [
+        "aerator",
+        "athletic field",
+        "basin",
+        "bmp",
+        "bridges",
+        "cctv",
+        "control cabinet",
+        "crosswalk",
+        "debris",
+        "ditch",
+        "drop inlet",
+        "forestry",
+        "graffiti",
+        "grass",
+        "landscaping",
+        "litter",
+        "manhole",
+        "marking",
+        "median",
+        "outfall",
+        "park",
+        "pavement",
+        "pipe",
+        "pole",
+        "pond",
+        "pothole",
+        "potholes",
+        "pruning",
+        "public works",
+        "shopping cart",
+        "sidewalk",
+        "sign",
+        "signal",
+        "sinkhole",
+        "stormwater",
+        "streetlight",
+        "streets",
+        "street sweeping",
+        "stump",
+        "tall weeds and grass",
+        "traffic",
+        "tree",
+        "turf",
+        "vacant lot",
+        "weir",
+        "work orders"
+      ],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/qzfe-wj25",
+      "description": "This dataset contains data on Work Orders performed by field crews from the Department of Parks & Recreation, the Department of Transit, and the Environmental Storm Water Management and Streets & Bridges Divisions of the Department of Public Works. The data comes from the city’s implementation of CentralSquare’s Enterprise Asset Management platform, also known as Lucity. This dataset is updated daily on weekdays.",
+      "title": "Work Orders",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://data.norfolk.gov/api/views/qzfe-wj25/rows.csv?accessType=DOWNLOAD",
+          "mediaType": "text/csv"
+        },
+        {
+          "mediaType": "application/rdf+xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/qzfe-wj25/rows.rdf?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/qzfe-wj25/columns.rdf",
+          "describedByType": "application/rdf+xml",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/json",
+          "downloadURL": "https://data.norfolk.gov/api/views/qzfe-wj25/rows.json?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/qzfe-wj25/columns.json",
+          "describedByType": "application/json",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/qzfe-wj25/rows.xml?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/qzfe-wj25/columns.xml",
+          "describedByType": "application/xml",
+          "@type": "dcat:Distribution"
+        }
+      ],
+      "theme": ["Government"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/r7bn-2egr",
+      "issued": "2020-11-06",
+      "@type": "dcat:Dataset",
+      "modified": "2022-09-13",
+      "keyword": ["date", "incident", "location", "offense", "police", "time"],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/r7bn-2egr",
+      "description": "This dataset contains incident reports recorded by the Norfolk Police Department that occurred over the last five years. Incidents can be searched by type, location, date and time of occurrence.  This dataset is updated weekly.",
+      "title": "Police Incident Reports",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://data.norfolk.gov/api/views/r7bn-2egr/rows.csv?accessType=DOWNLOAD",
+          "mediaType": "text/csv"
+        },
+        {
+          "mediaType": "application/rdf+xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/r7bn-2egr/rows.rdf?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/r7bn-2egr/columns.rdf",
+          "describedByType": "application/rdf+xml",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/json",
+          "downloadURL": "https://data.norfolk.gov/api/views/r7bn-2egr/rows.json?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/r7bn-2egr/columns.json",
+          "describedByType": "application/json",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/r7bn-2egr/rows.xml?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/r7bn-2egr/columns.xml",
+          "describedByType": "application/xml",
+          "@type": "dcat:Distribution"
+        }
+      ],
+      "theme": ["Public Safety"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/rxty-wxti",
+      "issued": "2017-11-27",
+      "@type": "dcat:Dataset",
+      "modified": "2022-04-22",
+      "keyword": ["food", "inspection", "norfolk", "restaurant", "violation"],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/rxty-wxti",
+      "description": "View current and past inspection outcomes, including violations noted for restaurants in the City of Norfolk.",
+      "title": "Restaurant Inspection Results",
+      "distribution": [
+        {
+          "mediaType": "text/html",
+          "downloadURL": "https://inspections.myhealthdepartment.com/va-norfolk",
+          "description": "This website highlights the important work that Environmental Health Specialists across Virginia do to ensure public safety. The 35 VDH Health Districts perform a wide variety of environmental and public health functions to keep all visitors and citizens of the Commonwealth safe while dining, lodging and enjoying all that Virginia has to offer.",
+          "@type": "dcat:Distribution",
+          "title": "Virginia Department of Health’s Inspection Database"
+        }
+      ],
+      "theme": ["Public Safety"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/suf7-r643",
+      "issued": "2020-10-20",
+      "@type": "dcat:Dataset",
+      "modified": "2022-09-13",
+      "keyword": ["census tract", "claim", "occupancy type", "year"],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/suf7-r643",
+      "description": "First, a caveat: the NFIP data does NOT provide information specific to individual homes or parcels. This information is protected under federal law. All personal identifying information about policy holders has been redacted, and data has been anonymized to census tract, reported ZIP code, and one decimal point digit of latitute and longitude. If mapped, flood insurance policies and claims may appear to be clustered at a particular location due to this anonymization.\nWhat all that means: you cannot search for an address to see whether it has flooded.\nHowever, among many things, this data shows flooding trends in Norfolk over the last 40+ years. It shows the census tracts that flood most frequently. And it shows where the largest number and highest value of claims occur.\n\nFEMA believes this historic release of NFIP data promotes transparency, reduces complexity related to public data requests, and improves how stakeholders interact with and understand the program. This is the largest, most comprehensive release of NFIP data coordinated by FEMA to date. This dataset allows for customizable searches to create reports, analyze and visualize present and historical NFIP data faster and easier than before. \nThis data will help FEMA build a national culture of preparedness by providing claims and policy information people need to make better choices about their flood risk and the insurance they need to protect the life they've built. \nNorfolk's Open Data team extracted city-specific information from the FEMA dataset. The dataset included here represents almost 6,000 claims on record from 1977 through 2019, totaling 67 million dollars in damage in the City of Norfolk.",
+      "title": "FEMA NFIP Claims",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://data.norfolk.gov/api/views/suf7-r643/rows.csv?accessType=DOWNLOAD",
+          "mediaType": "text/csv"
+        },
+        {
+          "mediaType": "application/rdf+xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/suf7-r643/rows.rdf?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/suf7-r643/columns.rdf",
+          "describedByType": "application/rdf+xml",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/json",
+          "downloadURL": "https://data.norfolk.gov/api/views/suf7-r643/rows.json?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/suf7-r643/columns.json",
+          "describedByType": "application/json",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/suf7-r643/rows.xml?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/suf7-r643/columns.xml",
+          "describedByType": "application/xml",
+          "@type": "dcat:Distribution"
+        }
+      ],
+      "theme": ["Government"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/th3n-jr9u",
+      "issued": "2019-10-17",
+      "@type": "dcat:Dataset",
+      "modified": "2020-09-16",
+      "keyword": ["assessment", "gpin", "quartlery", "real estate", "sales"],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/th3n-jr9u",
+      "description": "This dataset represents real estate assessment and sales data that is updated on a quarterly basis by the Real Estate Assessor’s Office. This dataset contains information for properties in the city including: Acreage, Square footage, GPIN, Street Address, year built, current land value, current improvement values, and current total value. The information is obtained from Real Estate Assessor’s Office ProVal records database",
+      "title": "Property Assessment and Sales - FY19",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://data.norfolk.gov/api/views/th3n-jr9u/rows.csv?accessType=DOWNLOAD",
+          "mediaType": "text/csv"
+        },
+        {
+          "mediaType": "application/rdf+xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/th3n-jr9u/rows.rdf?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/th3n-jr9u/columns.rdf",
+          "describedByType": "application/rdf+xml",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/json",
+          "downloadURL": "https://data.norfolk.gov/api/views/th3n-jr9u/rows.json?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/th3n-jr9u/columns.json",
+          "describedByType": "application/json",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/th3n-jr9u/rows.xml?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/th3n-jr9u/columns.xml",
+          "describedByType": "application/xml",
+          "@type": "dcat:Distribution"
+        }
+      ],
+      "theme": ["Real Estate"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/u85v-sad9",
+      "issued": "2019-08-20",
+      "@type": "dcat:Dataset",
+      "modified": "2021-05-18",
+      "keyword": [
+        "canopy",
+        "city services & operations",
+        "genus",
+        "planting",
+        "species",
+        "street name",
+        "tree"
+      ],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/u85v-sad9",
+      "description": "Recreation, Parks and Open Space’s Bureau of Parks and Urban Forestry plants hundreds of trees each year along city streets, within city parks, and on other city properties.  This dataset gives pertinent tree species information, shows important geographic information about which parts of Norfolk are receiving trees in a given year, and historical data about planting date.  City staff utilizes Microsoft excel to track tree planting information. This dataset will show where the City of Norfolk plants its trees on city owned properties.  This data is updated annually.",
+      "title": "Tree Planting Program",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://data.norfolk.gov/api/views/u85v-sad9/rows.csv?accessType=DOWNLOAD",
+          "mediaType": "text/csv"
+        },
+        {
+          "mediaType": "application/rdf+xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/u85v-sad9/rows.rdf?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/u85v-sad9/columns.rdf",
+          "describedByType": "application/rdf+xml",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/json",
+          "downloadURL": "https://data.norfolk.gov/api/views/u85v-sad9/rows.json?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/u85v-sad9/columns.json",
+          "describedByType": "application/json",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/u85v-sad9/rows.xml?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/u85v-sad9/columns.xml",
+          "describedByType": "application/xml",
+          "@type": "dcat:Distribution"
+        }
+      ],
+      "theme": ["Recreation"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/ubj6-qwau",
+      "issued": "2021-11-19",
+      "@type": "dcat:Dataset",
+      "modified": "2021-11-19",
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "identifier": "https://data.norfolk.gov/api/views/ubj6-qwau",
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "description": "",
+      "title": "Norfolk Foster Care and Adoption Services"
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/uxgi-fkzu",
+      "issued": "2019-01-09",
+      "@type": "dcat:Dataset",
+      "modified": "2022-09-13",
+      "keyword": [
+        "24 hours",
+        "arrest",
+        "incident",
+        "offense",
+        "police",
+        "report"
+      ],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/uxgi-fkzu",
+      "description": "This dataset represents all arrests that occurred in the last 24 hours as recorded by the Norfolk Police Department.  This dataset is updated daily.",
+      "title": "Police Arrest Reports",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://data.norfolk.gov/api/views/uxgi-fkzu/rows.csv?accessType=DOWNLOAD",
+          "mediaType": "text/csv"
+        },
+        {
+          "mediaType": "application/rdf+xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/uxgi-fkzu/rows.rdf?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/uxgi-fkzu/columns.rdf",
+          "describedByType": "application/rdf+xml",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/json",
+          "downloadURL": "https://data.norfolk.gov/api/views/uxgi-fkzu/rows.json?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/uxgi-fkzu/columns.json",
+          "describedByType": "application/json",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/uxgi-fkzu/rows.xml?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/uxgi-fkzu/columns.xml",
+          "describedByType": "application/xml",
+          "@type": "dcat:Distribution"
+        }
+      ],
+      "theme": ["Public Safety"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/v4g5-yqn9",
+      "issued": "2019-01-03",
+      "@type": "dcat:Dataset",
+      "modified": "2019-01-07",
+      "keyword": ["dataset", "gis", "mapping", "maps"],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/v4g5-yqn9",
+      "description": "The City of Norfolk Open GIS Data Site. This site contains various spatial data that can be used by anyone with an interest in geographic information systems (GIS) data for their applications. The City’s datasets are updated regularly and can be downloaded or accessed for free from this site. If you don’t see a particular dataset you are looking for, please check back often, as we will be providing additional data to the site in the future.",
+      "title": "Norfolk Open GIS Data",
+      "distribution": [
+        {
+          "mediaType": "text/html",
+          "downloadURL": "http://norfolkgisdata-orf.opendata.arcgis.com/",
+          "description": "The City of Norfolk Open GIS Data Site. This site contains various spatial data that can be used by anyone with an interest in geographic information systems (GIS) data for their applications. The City’s datasets are updated regularly and can be downloaded or accessed for free from this site. If you don’t see a particular dataset you are looking for, please check back often, as we will be providing additional data to the site in the future.",
+          "@type": "dcat:Distribution",
+          "title": "Norfolk Open GIS Data"
+        }
+      ],
+      "theme": ["Maps"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/v6nf-f84b",
+      "issued": "2018-09-26",
+      "@type": "dcat:Dataset",
+      "modified": "2021-09-03",
+      "keyword": [
+        "business",
+        "city services & operations",
+        "duration",
+        "facility",
+        "parking",
+        "permit",
+        "residential",
+        "type"
+      ],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/v6nf-f84b",
+      "description": "This dataset provides the number of parking permits by type and duration sold in the City parking system. Types include: Business, Resident (downtown), Residential Permits, City Department, and Top Deck.  This data is updated weekly.",
+      "title": "Parking Permits",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://data.norfolk.gov/api/views/v6nf-f84b/rows.csv?accessType=DOWNLOAD",
+          "mediaType": "text/csv"
+        },
+        {
+          "mediaType": "application/rdf+xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/v6nf-f84b/rows.rdf?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/v6nf-f84b/columns.rdf",
+          "describedByType": "application/rdf+xml",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/json",
+          "downloadURL": "https://data.norfolk.gov/api/views/v6nf-f84b/rows.json?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/v6nf-f84b/columns.json",
+          "describedByType": "application/json",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/v6nf-f84b/rows.xml?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/v6nf-f84b/columns.xml",
+          "describedByType": "application/xml",
+          "@type": "dcat:Distribution"
+        }
+      ],
+      "theme": ["Permits"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/vfm4-5wv6",
+      "issued": "2021-03-26",
+      "@type": "dcat:Dataset",
+      "modified": "2022-09-13",
+      "keyword": [
+        "animal",
+        "breed",
+        "cat",
+        "city services & operations",
+        "dog"
+      ],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/vfm4-5wv6",
+      "description": "The Norfolk Animal Care and Adoption Center (NACC) is the city’s animal sheltering facility. The NACC is an open-admission shelter; animals are never turned away, regardless of species, age, health or temperament.  This data reports on an animal from the moment it arrives at the shelter (intake) to the moment it leaves (outcome).  It also reports on foster activities.  This data is updated monthly.",
+      "title": "Norfolk Animal Care and Adoption Center (NACC)",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://data.norfolk.gov/api/views/vfm4-5wv6/rows.csv?accessType=DOWNLOAD",
+          "mediaType": "text/csv"
+        },
+        {
+          "mediaType": "application/rdf+xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/vfm4-5wv6/rows.rdf?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/vfm4-5wv6/columns.rdf",
+          "describedByType": "application/rdf+xml",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/json",
+          "downloadURL": "https://data.norfolk.gov/api/views/vfm4-5wv6/rows.json?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/vfm4-5wv6/columns.json",
+          "describedByType": "application/json",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/vfm4-5wv6/rows.xml?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/vfm4-5wv6/columns.xml",
+          "describedByType": "application/xml",
+          "@type": "dcat:Distribution"
+        }
+      ],
+      "theme": ["Government"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/vj2f-2an3",
+      "issued": "2021-11-03",
+      "@type": "dcat:Dataset",
+      "modified": "2022-04-12",
+      "keyword": [
+        "adopt",
+        "adoption",
+        "child",
+        "children",
+        "city services & operations",
+        "demographics",
+        "foster"
+      ],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/vj2f-2an3",
+      "description": "This dataset contains demographic and case characteristics of children in foster care in Norfolk with the goal of adoption.  The dataset includes the sex, age, race, placement, parental rights status and adoption status of these children. The data is from Virginia’s Online Automated Services Information System (OASIS).  OASIS is a comprehensive system that tracks the day-to-day activities performed by social workers statewide and is the official case record system for foster care and adoption cases in Virginia.  \n\nThis dataset details the work accomplished by staff at the Norfolk Department of Human Services with the goal of finding safe, permanent homes for children in Norfolk’s foster care system. This dataset is updated monthly.",
+      "title": "Adoptions",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://data.norfolk.gov/api/views/vj2f-2an3/rows.csv?accessType=DOWNLOAD",
+          "mediaType": "text/csv"
+        },
+        {
+          "mediaType": "application/rdf+xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/vj2f-2an3/rows.rdf?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/vj2f-2an3/columns.rdf",
+          "describedByType": "application/rdf+xml",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/json",
+          "downloadURL": "https://data.norfolk.gov/api/views/vj2f-2an3/rows.json?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/vj2f-2an3/columns.json",
+          "describedByType": "application/json",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/vj2f-2an3/rows.xml?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/vj2f-2an3/columns.xml",
+          "describedByType": "application/xml",
+          "@type": "dcat:Distribution"
+        }
+      ],
+      "theme": ["Government"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/vppv-ffw4",
+      "issued": "2020-01-22",
+      "@type": "dcat:Dataset",
+      "modified": "2020-01-22",
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "keyword": ["animal", "breed", "cat"],
+      "identifier": "https://data.norfolk.gov/api/views/vppv-ffw4",
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "description": "",
+      "title": "Norfolk Animal Care and Adoption Center - Carl's Cat",
+      "theme": ["Government"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/vv96-9m5c",
+      "issued": "2022-04-29",
+      "@type": "dcat:Dataset",
+      "modified": "2022-09-13",
+      "keyword": [
+        "department",
+        "education",
+        "employee & budget information",
+        "ethnicity",
+        "gender",
+        "human resources",
+        "military service",
+        "position"
+      ],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/vv96-9m5c",
+      "description": "This dataset provides demographic information about City of Norfolk employees. The data is provided by Norfolk's Department of Human Resources and is updated daily.",
+      "title": "Employee Demographics",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://data.norfolk.gov/api/views/vv96-9m5c/rows.csv?accessType=DOWNLOAD",
+          "mediaType": "text/csv"
+        },
+        {
+          "mediaType": "application/rdf+xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/vv96-9m5c/rows.rdf?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/vv96-9m5c/columns.rdf",
+          "describedByType": "application/rdf+xml",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/json",
+          "downloadURL": "https://data.norfolk.gov/api/views/vv96-9m5c/rows.json?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/vv96-9m5c/columns.json",
+          "describedByType": "application/json",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/vv96-9m5c/rows.xml?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/vv96-9m5c/columns.xml",
+          "describedByType": "application/xml",
+          "@type": "dcat:Distribution"
+        }
+      ],
+      "theme": ["Government"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/w26i-qme9",
+      "issued": "2020-12-09",
+      "@type": "dcat:Dataset",
+      "modified": "2022-08-01",
+      "keyword": [
+        "city services & operations",
+        "equipment",
+        "fleet",
+        "vehicle"
+      ],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/w26i-qme9",
+      "description": "This dataset provides data about the assets that are managed by the Division of Fleet Management.  Assets fall into two categories: vehicle or equipment.  \n\nFleet Management uses a point system that considers a variety of factors to determine which assets are recommended for replacement.   An asset with 15 points or higher is recommended for replacement.",
+      "title": "Fleet",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://data.norfolk.gov/api/views/w26i-qme9/rows.csv?accessType=DOWNLOAD",
+          "mediaType": "text/csv"
+        },
+        {
+          "mediaType": "application/rdf+xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/w26i-qme9/rows.rdf?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/w26i-qme9/columns.rdf",
+          "describedByType": "application/rdf+xml",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/json",
+          "downloadURL": "https://data.norfolk.gov/api/views/w26i-qme9/rows.json?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/w26i-qme9/columns.json",
+          "describedByType": "application/json",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/w26i-qme9/rows.xml?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/w26i-qme9/columns.xml",
+          "describedByType": "application/xml",
+          "@type": "dcat:Distribution"
+        }
+      ],
+      "theme": ["Government"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/w55n-i68e",
+      "issued": "2021-08-03",
+      "@type": "dcat:Dataset",
+      "modified": "2021-08-03",
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "keyword": ["fire", "inspection"],
+      "identifier": "https://data.norfolk.gov/api/views/w55n-i68e",
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "description": "",
+      "title": "An ounce of prevention"
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/wk4d-6jxs",
+      "issued": "2022-08-26",
+      "@type": "dcat:Dataset",
+      "modified": "2022-08-26",
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "identifier": "https://data.norfolk.gov/api/views/wk4d-6jxs",
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "description": "",
+      "title": "Hampton Roads Datathon"
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/wqxq-hhe6",
+      "issued": "2021-08-26",
+      "@type": "dcat:Dataset",
+      "modified": "2022-05-03",
+      "keyword": ["micro-mobility", "scooter", "transit", "transportation"],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/wqxq-hhe6",
+      "description": "This dataset is data about trips on electric scooters and electric-assisted bikes. Lime scooters were made available to the public in June 2019 to use throughout Norfolk, and Lime e-bikes were made available to the public in June 2021. Data represents trips from July 2019 to the present and is updated weekly.",
+      "title": "Micromobility (Electric Scooters and Bikes)",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://data.norfolk.gov/api/views/wqxq-hhe6/rows.csv?accessType=DOWNLOAD",
+          "mediaType": "text/csv"
+        },
+        {
+          "mediaType": "application/rdf+xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/wqxq-hhe6/rows.rdf?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/wqxq-hhe6/columns.rdf",
+          "describedByType": "application/rdf+xml",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/json",
+          "downloadURL": "https://data.norfolk.gov/api/views/wqxq-hhe6/rows.json?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/wqxq-hhe6/columns.json",
+          "describedByType": "application/json",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/wqxq-hhe6/rows.xml?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/wqxq-hhe6/columns.xml",
+          "describedByType": "application/xml",
+          "@type": "dcat:Distribution"
+        }
+      ],
+      "theme": ["Government"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/wzyp-2rya",
+      "issued": "2022-04-14",
+      "@type": "dcat:Dataset",
+      "modified": "2022-04-14",
+      "keyword": [
+        "landscaping",
+        "mowing",
+        "parks & urban forestry",
+        "property",
+        "tall weeds and grass",
+        "vacant lot"
+      ],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/wzyp-2rya",
+      "description": "This URL provides data about the city’s mowing schedule that is managed by the Bureau of Parks & Urban Forestry Operations. Mowing locations include medians, parks, schools, vacant lots, and various other city properties. Parks & Recreation landscaping crews are responsible for preserving and protecting Norfolk's parks and other outdoor public areas for aesthetics, recreation, education, and conservation. Vacant city lots, parcels, and school properties are maintained within city code. The landscaping services team manages the mowing of nearly all city-owned property. Factors such as rain, holidays, and storm response can affect the schedule. Note that dates are subject to change due to special events, inclement weather, and storm response/cleanup. Major parks will continue to be mowed on a weekly basis or kept usable to include Lafayette, Lakewood, Northside, Poplar Hall, Berkley, and Tarrallton.",
+      "title": "Parks & Recreation Mowing Schedules",
+      "distribution": [
+        {
+          "mediaType": "text/html",
+          "downloadURL": "https://www.norfolk.gov/4461/Landscape-Services",
+          "description": "This is a direct link to the City of Norfolk Parks & Recreation Landscape Services web page. This page includes the mowing schedules for each season.",
+          "@type": "dcat:Distribution",
+          "title": "Parks & Recreation Mowing Schedules"
+        }
+      ],
+      "theme": ["Recreation"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/x3iy-p3xt",
+      "issued": "2021-10-06",
+      "@type": "dcat:Dataset",
+      "modified": "2022-05-26",
+      "keyword": [
+        "city services & operations",
+        "count",
+        "cyclist",
+        "date",
+        "direction",
+        "pedestrian",
+        "trail",
+        "transit",
+        "transportation",
+        "trip"
+      ],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/x3iy-p3xt",
+      "description": "Bike and pedestrian counters have been installed at six locations along the Elizabeth River Trail and at 15 locations along Norfolk’s existing bike lanes to accurately track pedestrian and cyclist use along the trail and bike network. This counter system combines the passive infrared sensor to count pedestrians on the adjacent sidewalk and an inductive loop sensor to detect bicycles in existing bike lanes. This dataset comprises data from two types of counters – Eco-Counter and Roadsys. The Eco-Counter data begins in April 2019 and is updated weekly. The Roadsys data begins in April 2021 and is updated quarterly.\n\nPlease note: The counters at the following location are currently offline, making up-to-date data from these counters temporarily unavailable:\n-\tWeyanoke Footbridge – last date August 28, 2019\n-\tE. Ocean View Avenue – last date April 28, 2021\n-\tERT Bridge/Lamberts Point – last date April 28, 2021\n-\tJeff Robertson Park (ERT) – last date December 17, 2021\n-\tPark Ave/Claiborne Ave (ERT) – last date December 19, 2021\nWe are working to correct this issue as quickly as possible.",
+      "title": "Bike and Pedestrian Trip Counts",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://data.norfolk.gov/api/views/x3iy-p3xt/rows.csv?accessType=DOWNLOAD",
+          "mediaType": "text/csv"
+        },
+        {
+          "mediaType": "application/rdf+xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/x3iy-p3xt/rows.rdf?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/x3iy-p3xt/columns.rdf",
+          "describedByType": "application/rdf+xml",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/json",
+          "downloadURL": "https://data.norfolk.gov/api/views/x3iy-p3xt/rows.json?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/x3iy-p3xt/columns.json",
+          "describedByType": "application/json",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/x3iy-p3xt/rows.xml?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/x3iy-p3xt/columns.xml",
+          "describedByType": "application/xml",
+          "@type": "dcat:Distribution"
+        }
+      ],
+      "theme": ["Recreation"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/xpgw-ywvw",
+      "issued": "2019-05-22",
+      "@type": "dcat:Dataset",
+      "modified": "2022-04-29",
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "keyword": ["address", "parks", "permits"],
+      "identifier": "https://data.norfolk.gov/api/views/xpgw-ywvw",
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "description": "",
+      "title": "Where is the data in your neighborhood?",
+      "theme": ["Government"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/y6t7-ma9g",
+      "issued": "2019-06-18",
+      "@type": "dcat:Dataset",
+      "modified": "2022-03-07",
+      "keyword": ["abc", "alcohol", "city services & operations", "license"],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/y6t7-ma9g",
+      "description": "This is a direct link to the Virginia Alcohol Beverage Control Authority's searchable page for active ABC Licenses in the state",
+      "title": "ABC Licenses",
+      "distribution": [
+        {
+          "mediaType": "text/html",
+          "downloadURL": "https://www.abc.virginia.gov/licenses/find-a-license",
+          "description": "This is a direct link to the Virginia Alcohol Beverage Control Authority's Page to search for active ABC Licenses in the state",
+          "@type": "dcat:Distribution",
+          "title": "ABC Licenses"
+        }
+      ],
+      "theme": ["Government"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/yfza-ryvv",
+      "issued": "2021-04-07",
+      "@type": "dcat:Dataset",
+      "modified": "2022-09-13",
+      "keyword": ["status", "street names"],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/yfza-ryvv",
+      "description": "Information containing the master list of valid street names in the City.  Street names may include a directional that is fully spelled out (i.e., East, West, North, or South) depending on how the street name was legally recorded. Those streets with a pre-directional (i.e., N, S, E, W) before the street name will be listed twice in this index, once under the first letter of the street name and again using the pre-direction. For example, W Brambleton Avenue will be listed both under W and under B. Street status field also indicates where a street is located: city, military base, or crosses over both military base and city.",
+      "title": "Norfolk Master Street List",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://data.norfolk.gov/api/views/yfza-ryvv/rows.csv?accessType=DOWNLOAD",
+          "mediaType": "text/csv"
+        },
+        {
+          "mediaType": "application/rdf+xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/yfza-ryvv/rows.rdf?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/yfza-ryvv/columns.rdf",
+          "describedByType": "application/rdf+xml",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/json",
+          "downloadURL": "https://data.norfolk.gov/api/views/yfza-ryvv/rows.json?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/yfza-ryvv/columns.json",
+          "describedByType": "application/json",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/yfza-ryvv/rows.xml?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/yfza-ryvv/columns.xml",
+          "describedByType": "application/xml",
+          "@type": "dcat:Distribution"
+        }
+      ],
+      "theme": ["Real Estate"]
+    },
+    {
+      "accessLevel": "public",
+      "landingPage": "https://data.norfolk.gov/d/yvpm-8aid",
+      "issued": "2022-07-08",
+      "@type": "dcat:Dataset",
+      "modified": "2022-09-13",
+      "keyword": [
+        "assessment",
+        "gpin",
+        "lot",
+        "parcel",
+        "property",
+        "quarterly",
+        "real estate",
+        "sales",
+        "tax",
+        "transfer",
+        "value"
+      ],
+      "contactPoint": {
+        "@type": "vcard:Contact",
+        "fn": "City of Norfolk",
+        "hasEmail": "mailto:no-reply@data.norfolk.gov"
+      },
+      "publisher": { "@type": "org:Organization", "name": "data.norfolk.gov" },
+      "identifier": "https://data.norfolk.gov/api/views/yvpm-8aid",
+      "description": "This dataset represents real estate assessment and sales data made available by the Office of the Real Estate Assessor. This dataset contains information for properties in the city, including acreage, square footage, GPIN, street address, year built, current land value, current improvement value, and current total value. The information is obtained from the Office of the Real Estate Assessor ProVal records database. This dataset is updated daily on weekdays.",
+      "title": "Property Assessment and Sales - FY23",
+      "distribution": [
+        {
+          "@type": "dcat:Distribution",
+          "downloadURL": "https://data.norfolk.gov/api/views/yvpm-8aid/rows.csv?accessType=DOWNLOAD",
+          "mediaType": "text/csv"
+        },
+        {
+          "mediaType": "application/rdf+xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/yvpm-8aid/rows.rdf?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/yvpm-8aid/columns.rdf",
+          "describedByType": "application/rdf+xml",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/json",
+          "downloadURL": "https://data.norfolk.gov/api/views/yvpm-8aid/rows.json?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/yvpm-8aid/columns.json",
+          "describedByType": "application/json",
+          "@type": "dcat:Distribution"
+        },
+        {
+          "mediaType": "application/xml",
+          "downloadURL": "https://data.norfolk.gov/api/views/yvpm-8aid/rows.xml?accessType=DOWNLOAD",
+          "describedBy": "https://data.norfolk.gov/api/views/yvpm-8aid/columns.xml",
+          "describedByType": "application/xml",
+          "@type": "dcat:Distribution"
+        }
+      ],
+      "theme": ["Real Estate"]
+    }
+  ]
+}
