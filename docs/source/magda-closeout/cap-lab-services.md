@@ -10,7 +10,10 @@ First we have 'Magda-API' which is a NodeJS solution that contains Magda API hel
 
 We created and utilized these API helper functions due to format inconsistencies when connecting to Norfolk and Virginia datasets.
 
+You can find the [Magda-API hosted on our Azure DevOps Repository](https://dev.azure.com/CapabilitiesLab/_git/Magda?path=/CapabilitiesLab/Services/Magda-API).
+
 ## Flask-API
 
 TODO
 
+You can find the [Flask-API hosted on our Azure DevOps Repository](https://dev.azure.com/CapabilitiesLab/_git/Magda?path=/CapabilitiesLab/Services/Flask-API).

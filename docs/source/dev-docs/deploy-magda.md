@@ -2,7 +2,7 @@
 
 For v1 of Digital Neighborhoods Magda, v1.3.0 of Magda was deployed.
 
-You can find version specific dogs at the [release/v1.3.0](https://github.com/magda-io/magda/tree/release/v1.3.0) GitHub branch.
+You can find version specific docs at the [release/v1.3.0](https://github.com/magda-io/magda/tree/release/v1.3.0) GitHub branch.
 
 
 In order to deploy Magda, please follow the Data61 ['Building and Running'](https://github.com/magda-io/magda/blob/release/v1.3.0/docs/docs/building-and-running.md) instructions.
